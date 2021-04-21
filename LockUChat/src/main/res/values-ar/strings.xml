@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    云信相关-->
+    <string name="notification_status_audio_msg">تلقى رسالة صوتية من%1$s</string>
+    <string name="notification_status_custom_msg">تلقى رسالة مخصصة من%1$s</string>
+    <string name="notification_status_file_msg">تلقى ملفًا من%1$s</string>
+    <string name="notification_status_location_msg">%1$s شارك رسالة الموقع</string>
+    <string name="notification_status_multi_msg_incoming">تلقي رسائل من%1$d جهات اتصال</string>
+    <string name="notification_status_notification_msg">%1$s: إشعار</string>
+    <string name="notification_status_image_msg">تلقى صورة من%1$s</string>
+    <string name="notification_status_ticker_text">تلقى رسالة من%1$s</string>
+    <string name="notification_status_unsupported_msg">%1$s: نوع رسالة غير مدعوم</string>
+    <string name="notification_status_video_msg">تلقى رسالة فيديو من%1$s</string>
+    <string name="notification_status_hidden_msg_content">تلقيت رسالة جديدة</string>
+
+    <string name="msg_gift">[هدية]</string>
+    <string name="msg_unknown">[مجهول]</string>
+    <string name="msg_voice_chat">[محادثة صوتية]</string>
+    <string name="msg_video_chat">[دردشة فيديو]</string>
+    <string name="msg_picture_message">[صورة]</string>
+    <string name="msg_video_message">[فيديو]</string>
+    <string name="msg_audio_message">[صوتي]</string>
+
+
+    <!--    云信相关-->
+
+    <!--  其他  -->
+    <string name="locku_im_online">متصل</string>
+    <string name="locku_im_offline">غير متصل على الانترنت</string>
+    <string name="locku_im_busy">مشغول</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">أمس</string>
+
+    <string-array name="weekname">
+        <item>الاثنين</item>
+        <item>يوم الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>يوم الخميس</item>
+        <item>جمعة</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+    </string-array>
+    <string name="novip_info">قامت بإعداد مساعد الرسائل ويمكنها تلقي ردك على الفور!</string>
+    <string name="send">إرسال</string>
+    <string name="hold_and_talk">عقد وتحدث</string>
+    <string name="release_to_end">أطلق العنان للنهاية</string>
+    <string name="release_send">الافراج عن الإرسال</string>
+    <string name="photo">صورة فوتوغرافية</string>
+
+    <string name="click_to_call_back_now">انقر للاتصال مرة أخرى الآن</string>
+    <string name="record_failed">فشل التسجيل. حاول مرة اخرى</string>
+    <string name="record_max_time">هل تريد إرسال التسجيل لأقصى وقت؟</string>
+
+    <string name="avcall_cancel">ألغيت</string>
+    <string name="avcall_is_reject">مرفوض</string>
+    <string name="avcall_be_rejected">مرفوض</string>
+    <string name="avcall_no_pick_up">لا اجابة</string>
+    <string name="avcall_is_busy_opposite">الطرف الآخر مشغول</string>
+    <string name="avcall_is_busy_self">لا اجابة</string>
+    <string name="give">يعطي</string>
+    <string name="recharge">تعبئة رصيد</string>
+
+    <string name="new_call">لديك مكالمة جديدة</string>
+    <string name="net_call">[اتصال الشبكة]</string>
+    <string name="answer_ing">يسأل...</string>
+    <string name="error_page_later">خطأ الصفحة ، يرجى المحاولة مرة أخرى في وقت لاحق</string>
+    <string name="the_other_party">الحفلة الاخرى</string>
+    <string name="invite_4_voice">  يدعوك إلى محادثة صوتية ...</string>
+    <string name="invite_4_video">  يدعوك إلى محادثة فيديو ...</string>
+
+    <string name="str_wait_for_an_answer">في انتظار الإجابة</string>
+
+    <string name="orther_internet_quality_no">جودة شبكة الجانب الآخر رديئة</string>
+    <string name="orther_internet_quality_no_maybe">تبدو جودة شبكة الجانب الآخر رديئة</string>
+    <string name="get_vip_failed">فشل الحصول على حالة العضوية</string>
+    <string name="she_hung_up">الطرف الآخر أنهى المكالمة</string>
+    <string name="confirm_hung_up">هل أنت متأكد أنك تريد قطع الاتصال؟</string>
+    <string name="tips">نصائح</string>
+    <string name="lockchat_cancel">يلغي</string>
+    <string name="lockchat_ok">يتأكد</string>
+
+    <string name="call_timeout">مهلة المكالمة</string>
+    <string name="internet_is_not_can_use">فشل الاتصال بالشبكة ، يرجى التحقق من إعدادات الشبكة</string>
+    <string name="other_busy">الطرف الآخر مشغول ، يرجى الاتصال لاحقًا</string>
+    <string name="avchat_call_finish">نهاية المكالمة</string>
+    <string name="diamond_is_not_enough">الماس الخاص بك لا يكفي</string>
+    <string name="report">نقل</string>
+    <string name="block">حاجز</string>
+    <string name="follow">يتبع</string>
+
+    <string name="internet_is_no_good">الشبكة غير متوفرة حاليا</string>
+    <string name="nologin_in">لم تقم بتسجيل الدخول</string>
+    <string name="connecting">  توصيل...</string>
+    <string name="logining">يسجل دخول...</string>
+
+    <string name="please_select_gift">الرجاء اختيار هدية</string>
+    <string name="open_permission_to_chat">تمكين إذن للاتصال</string>
+    <string name="block_fail">فشل الحظر</string>
+    <string name="send_failed">لقد تعذر الارسال</string>
+
+    <string name="del_chat">احذف هذه الدردشة</string>
+
+
+    <!--  2020-12-10 20:14以后添加的字符串-->
+    <string name="vip_time_expired">انتهت العضوية</string>
+    <string name="each_min">/ دقيقة</string>
+    <string name="version_old_please_update">هذا الإصدار قديم جدًا ، يرجى التحديث</string>
+    <string name="video_strategy_left">هذه الدعوة</string>
+    <string name="video_strategy_right">، مقيد بـ%s</string>
+    <string name="reply">رد</string>
+    <string name="user_is_blacked">تم حذف المستخدم</string>
+    <string name="block_suc">كتلة النجاح</string>
+
+    <!--  2021-01-12 17:51以后添加的字符串-->
+    <string name="open_permission_to_use">تمكين إذن للاتصال</string>
+    <!--2021.1.14 以上翻译过了 结尾是 open_permission_to_use-->
+
+    <string name="click_back_to_continue_answer">انقر هنا للعودة إلى المكالمة</string>
+
+    <!--  2021-01-29 14:43以后添加的字符串-->
+    <string name="str_loading">جار التحميل</string>
+    <string name="str_connectting">توصيل</string>
+
+    <!--    2021-02-03 12:42-->
+    <string name="str_msg_ask_gift">[اطلب هدايا]</string>
+    <string name="str_ask_for">أسأل عن</string>
+    <string name="str_title_ask_for">%1$s آمل أن تتمكن من منحها هدية</string>
+    <string name="str_title_receive_send_gift">%1$s أعطاك</string>
+    <string name="str_title_send_send_gift">لقد أعطيت%1$s</string>
+    <string name="str_default_send_gift_desc">كل شيء ما هو إلا كلمة حب</string>
+    <!--2021.2.4已翻译结尾str_default_send_gift_desc-->
+
+    <string name="send_video_invitation">أرسل دعوة فيديو</string>
+    <string name="i_am_waiting_for_you">أنا أنتظرك</string>
+    <!--    2021-03-02 10:28-->
+    <string name="str_entering">الطرف الآخر يكتب ...</string>
+    <string name="replay_ask">رد واطلب معلومات الاتصال</string>
+    <string name="send_voice_invitation">أرسل دعوة صوتية</string>
+    <string name="wait_replay">نجح الرد</string>
+    <string name="reply_success">في انتظار الرد</string>
+</resources>

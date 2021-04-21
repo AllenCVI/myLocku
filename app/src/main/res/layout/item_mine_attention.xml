@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="23dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/icon_placeholder_user"></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="16sp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:textSize="11sp"></TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_follow"
+            android:layout_width="66dp"
+            android:background="@drawable/shape_cff4a52_c15"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:text="@string/follow"></TextView>
+
+        <TextView
+            android:id="@+id/tv_unfollow"
+            android:layout_width="66dp"
+            android:background="@drawable/shape_c1d1a4d_c15"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:text="@string/unfollow"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_height="1dp"
+        android:background="@color/color_1d1a4d"></TextView>
+
+
+</LinearLayout>

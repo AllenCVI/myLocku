@@ -1,0 +1,56 @@
+ext {
+    //Build Gradle Plugin
+    externalAndroidBuildGradlePlugin = 'com.android.tools.build:gradle:4.0.1'
+
+    //Application Layer
+    externalEventBus = "org.greenrobot:eventbus:3.1.1"
+    externalGlide = "com.github.bumptech.glide:glide:4.12.0"
+    externalGlideTransform = 'jp.wasabeef:glide-transformations:4.1.0'
+    externalGlideProcess = "com.github.bumptech.glide:compiler:4.12.0"
+
+    externalOKHTTP = 'com.squareup.okhttp3:okhttp:4.7.2'
+    externalOKIO = 'com.squareup.okio:okio:2.10.0'
+    externalGSON = 'com.google.code.gson:gson:2.8.0'
+    externalAPPCOMPAT = "androidx.appcompat:appcompat:1.2.0"
+    externalRECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0"
+    externalJUNIT = "junit:junit:4.12"
+    externalTESTJUNIT = "androidx.test.ext:junit:1.1.2"
+    externalESPRESSO = "androidx.test.espresso:espresso-core:3.3.0"
+
+    externalMULTIDEX = "androidx.multidex:multidex:2.0.1"
+    externalSMART = "com.scwang.smart:refresh-layout-kernel:2.0.1"
+    externalBRVAH = "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+
+    externalTABLAYOUT = "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar"
+    externalNUMPICKER = 'cn.carbswang.android:NumberPickerView:1.2.0'
+    externalJZVD = 'cn.jzvd:jiaozivideoplayer:7.5.0'
+    externalEXOPLAYER = 'com.google.android.exoplayer:exoplayer:2.11.3'
+    externalEXOPLAYERCORE =  'com.google.android.exoplayer:exoplayer-core:2.11.3'
+    externalEXOPLAYERDASH = 'com.google.android.exoplayer:exoplayer-dash:2.11.3'
+    externalEXOPLAYERSM = 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.3'
+    externalSMARTHEAD = 'com.scwang.smart:refresh-header-material:2.0.1'
+    externalSMARTFOOT = "com.scwang.smart:refresh-footer-ball:2.0.1"
+    externalAUTOSIZE = "me.jessyan:autosize:1.2.1"
+    externalGallery   = "github.hellocsl:GalleryLayoutManager:1.0.6"
+    externalZLOAD   = 'com.zyao89:zloading:1.1.2'
+    externalPICTURESELECTOR = "com.github.LuckSiege.PictureSelector:picture_library:v2.6.0"
+
+    externalPERMISSION =  'com.github.tbruyelle:rxpermissions:0.12'
+
+    externalRXJAVA3 = 'io.reactivex.rxjava3:rxjava:3.0.7'
+    externalVIEWPAGER2 = 'androidx.viewpager2:viewpager2:1.0.0-alpha01'
+
+    externalTINY =  'com.zxy.android:tiny:1.1.0'
+
+
+    //Android SDK/Tools Version
+    externalCompileSdkVersion = 30
+    externalBuildToolsVersion = '30.0.2'
+    //The MinSdkVersion of the product you can add like this: externalSVideoMinSdkVersion 15
+    externalMinSdkVersion = 19
+    externalTargetSdkVersion = 30
+
+
+//云信
+    nertcSdk = "com.netease.yunxin:nertc:4.0.1"
+}

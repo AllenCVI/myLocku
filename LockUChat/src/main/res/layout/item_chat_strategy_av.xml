@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="7dp"
+    android:paddingTop="7dp"
+    android:gravity="end">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:11"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_head_left"
+            android:layout_width="44dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="gone" />
+
+        <include layout="@layout/layout_msg_progress" />
+
+        <LinearLayout
+            android:id="@+id/content_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_strategy_top"
+                android:paddingVertical="14dp"
+                android:paddingStart="17dp"
+                android:paddingEnd="16dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
+                    android:text="@string/send_video_invitation"></TextView>
+
+                <TextView
+                    android:id="@+id/tv_deputy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:text="@string/i_am_waiting_for_you"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_strategy_bottom"
+                android:paddingVertical="14dp"
+                android:paddingStart="17dp"
+                android:paddingEnd="16dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_type_left"
+                    android:layout_width="13dp"
+                    android:layout_height="16dp"
+                    android:layout_marginEnd="14dp"
+                    android:src="@mipmap/ic_strategy_av" />
+
+                <TextView
+                    android:id="@+id/tv_chat_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:maxWidth="220dp"
+                    android:text="11111" />
+
+                <ImageView
+                    android:id="@+id/iv_type_right"
+                    android:layout_width="13dp"
+                    android:layout_height="16dp"
+                    android:layout_marginStart="14dp"
+                    android:visibility="gone"
+                    android:src="@mipmap/ic_strategy_av" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_head_right"
+            android:layout_width="44dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

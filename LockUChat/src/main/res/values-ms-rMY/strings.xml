@@ -1,0 +1,140 @@
+<resources>
+    <!--    云信相关-->
+    <string name="notification_status_audio_msg">menerima mesej audio dari %1$s</string>
+    <string name="notification_status_custom_msg">menerima pesanan khas dari %1$s</string>
+    <string name="notification_status_file_msg">menerima fail dari %1$s</string>
+    <string name="notification_status_location_msg">%1$s berkongsi mesej lokasi</string>
+    <string name="notification_status_multi_msg_incoming">menerima maklumat dari %1$d kenalan</string>
+    <string name="notification_status_notification_msg">%1$s: pemberitahuan</string>
+    <string name="notification_status_image_msg">menerima gambar dari %1$s</string>
+    <string name="notification_status_ticker_text">menerima mesej dari %1$s</string>
+    <string name="notification_status_unsupported_msg">%1$s: jenis mesej yang tidak disokong</string>
+    <string name="notification_status_video_msg">menerima mesej video dari %1$s</string>
+    <string name="notification_status_hidden_msg_content">anda menerima mesej baru</string>
+
+    <string name="msg_gift">[Hadiah]</string>
+    <string name="msg_unknown">[Tidak Diketahui]</string>
+    <string name="msg_voice_chat">Sembang suara</string>
+    <string name="msg_video_chat">Sembang video</string>
+    <string name="msg_picture_message">[Gambar]</string>
+    <string name="msg_video_message">[Video]</string>
+    <string name="msg_audio_message">[Suara]</string>
+
+
+    <!--    云信相关-->
+
+    <!--  其他  -->
+    <string name="locku_im_online">Atas talian</string>
+    <string name="locku_im_offline">Luar talian</string>
+    <string name="locku_im_busy">Sibuk</string>
+    <string name="today">Hari ini</string>
+    <string name="yesterday">Semalam</string>
+
+    <string-array name="weekname">
+        <item>Isnin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
+        <item>Ahad</item>
+    </string-array>
+    <string name="novip_info">Dia telah menetapkan peringatan mesej dan dapat segera menerima balasan anda!</string>
+    <string name="send">Hantar</string>
+    <string name="hold_and_talk">Tekan untuk bercakap</string>
+    <string name="release_to_end">Lepaskan untuk tamat</string>
+    <string name="release_send">Lepaskan hantar</string>
+    <string name="photo">gambar</string>
+
+    <string name="click_to_call_back_now">Klik untuk memanggil balik panggilan</string>
+    <string name="record_failed">Rakaman gagal. Sila cuba lagi</string>
+    <string name="record_max_time">Adakah anda pasti mahu menghantar rakaman ke masa terpanjang?</string>
+
+    <string name="avcall_cancel">Dibatalkan</string>
+    <string name="avcall_is_reject">Ditolak</string>
+    <string name="avcall_be_rejected">Ditolak</string>
+    <string name="avcall_no_pick_up">Tiada jawapan</string>
+    <string name="avcall_is_busy_opposite">Pihak lain sibuk</string>
+    <string name="avcall_is_busy_self">Tiada jawapan</string>
+    <string name="give">Memberi</string>
+    <string name="recharge">Isi semula</string>
+
+    <string name="new_call">Anda mempunyai panggilan baru</string>
+    <string name="net_call">[Panggilan rangkaian]</string>
+    <string name="answer_ing">jawapan</string>
+    <string name="error_page_later">Ralat halaman, sila cuba sebentar lagi</string>
+    <string name="the_other_party">Pihak lain</string>
+    <string name="invite_4_voice">Menjemput anda ke panggilan suara …</string>
+    <string name="invite_4_video">menjemput anda untuk menyertai sembang video</string>
+
+    <string name="str_wait_for_an_answer">Menunggu jawapan ...</string>
+
+    <string name="orther_internet_quality_no">Kualiti rangkaian pihak lain kurang baik</string>
+    <string name="orther_internet_quality_no_maybe">Kualiti rangkaian pihak lain kurang baik</string>
+    <string name="get_vip_failed">Gagal mendapat status VIP</string>
+    <string name="she_hung_up">Pihak lain menutup panggilan</string>
+    <string name="confirm_hung_up">Adakah anda pasti mahu menutup?</string>
+    <string name="tips">Petua</string>
+    <string name="lockchat_cancel">Batalkan</string>
+    <string name="lockchat_ok">Sahkan</string>
+
+    <string name="call_timeout">Tamat masa panggilan</string>
+    <string name="internet_is_not_can_use">Sambungan rangkaian gagal, sila periksa Tetapan rangkaian anda</string>
+    <string name="other_busy">Pihak lain sedang sibuk，Sila hubungi kemudian</string>
+    <string name="avchat_call_finish">Tamat panggilan</string>
+    <string name="diamond_is_not_enough">Berlian anda tidak mencukupi</string>
+    <string name="report">Laporkan</string>
+    <string name="block">Sekat</string>
+    <string name="follow">Ikut</string>
+
+    <string name="internet_is_no_good">Rangkaian tidak tersedia buat masa ini</string>
+    <string name="nologin_in">Tidak dilog masuk</string>
+    <string name="connecting">Menyambung ...</string>
+    <string name="logining">Log masuk...</string>
+
+    <string name="please_select_gift">Sila pilih hadiah</string>
+    <string name="open_permission_to_chat">Dayakan kebenaran untuk memanggil</string>
+    <string name="block_fail">Gagal menyekat</string>
+    <string name="send_failed">Penghantaran gagal</string>
+
+    <string name="del_chat">Padamkan sembang ini</string>
+    <!--上面是 2021.1.12的翻译 结尾是 del_chat-->
+    <!--  2020-12-10 20:14以后添加的字符串-->
+    <string name="vip_time_expired">VIP tamat</string>
+    <string name="each_min">/min</string>
+
+    <string name="version_old_please_update">Versi ini terlalu lama, sila kemas kini</string>
+
+    <string name="video_strategy_left">Panggilan ini adalah</string>
+    <string name="video_strategy_right">, terhad kepada %s</string>
+    <string name="reply">Balas</string>
+    <string name="user_is_blacked">Pengguna telah dipadamkan</string>
+    <string name="block_suc">Sekatan Berjaya</string>
+
+    <!--  2020-01-12 17:51以后添加的字符串-->
+    <string name="open_permission_to_use">Dayakan kebenaran untuk memanggil</string>
+    <!--2021.1.14 以上翻译过了 结尾是 open_permission_to_use-->
+    <string name="click_back_to_continue_answer">Klik di sini untuk kembali ke panggilan</string>
+
+    <!--  2021-01-29 14:43以后添加的字符串-->
+    <string name="str_loading">Sedang memuatkan</string>
+    <string name="str_connectting">Dalam sambungan</string>
+
+
+    <!--    2021-02-03 12:42-->
+    <string name="str_msg_ask_gift">[Meminta hadiah]</string>
+    <string name="str_ask_for">Meminta</string>
+    <string name="str_title_ask_for">%1$s harap anda dapat memberikannya hadiah</string>
+    <string name="str_title_receive_send_gift">%1$s memberikan anda</string>
+    <string name="str_title_send_send_gift">Anda memberi %1$s</string>
+    <string name="str_default_send_gift_desc">Semuanya hanyalah satu kata iaitu cinta</string>
+    <!--2021.2.4已翻译结尾str_default_send_gift_desc-->
+    <string name="str_entering">Pihak lain sedang mengetik…</string>
+    <string name="send_video_invitation">jemputan video dihantar</string>
+    <string name="i_am_waiting_for_you">Saya sedang menunggu kamu</string>
+    <string name="replay_ask">balas dan meminta maklumat hubungan</string>
+    <string name="reply_success"> berjaya membalas</string>
+    <string name="wait_replay">menunggu balasan</string>
+    <!--2021.3.8 已翻译 wait_replay -->
+    <string name="send_voice_invitation">jemputan suara dihantar</string>
+</resources>

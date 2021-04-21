@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#16143c">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <ImageView android:id="@+id/iv_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_title_back_navigator"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:onClick="back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/member_centre"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlt_vip_top"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@mipmap/vip_pay_bg"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginEnd="23dp"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:text="@string/chat_free" />
+
+                <TextView
+                    android:id="@+id/tv_pay_month_vip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:text="@string/month_vip" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#66ffffff"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="38dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/pay_top_tips" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlt_diamond_top"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@mipmap/bg_diamond_pay"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginEnd="23dp"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:text="@string/chat_free" />
+
+                <TextView
+                    android:id="@+id/tv_pay_buy_diamond_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:text="@string/buy_diamond" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#66ffffff"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="38dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/pay_diamond_vip_tips" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:textColor="#ccffffff"
+                android:textSize="13sp"
+                android:text="@string/choose_payment_method" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scrollbars="vertical"
+                android:scrollbarSize="3dp"
+                android:scrollbarThumbVertical="@drawable/scrollbar_thumb_pay"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/tv_confirm_payment"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginStart="51dp"
+                android:layout_marginEnd="51dp"
+                android:layout_marginTop="20dp"
+                android:onClick="confirm"
+                android:background="@drawable/bg_pay_confirm"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/confirm_pay" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="#1effffff"
+                android:textSize="12sp"
+                android:text="@string/confirm_rules" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/ll_network"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            layout="@layout/layout_common_network_error"></include>
+    </RelativeLayout>
+
+
+</LinearLayout>

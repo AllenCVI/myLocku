@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+    <LinearLayout
+        android:layout_width="74dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/selector_gift_item"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="74dp"
+            android:layout_height="74dp">
+            <ImageView
+                android:id="@+id/iv_gift"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:text="Chocolates"
+                android:textColor="@color/white"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_centerHorizontal="true"
+                android:textSize="12sp"
+                android:layout_marginBottom="2dp"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="188"
+            android:textColor="@color/c_ff4a52"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="6dp"
+            android:drawableEnd="@mipmap/icon_diamonds_gift"
+            />
+    </LinearLayout>
+
+</LinearLayout>

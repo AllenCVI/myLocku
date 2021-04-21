@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:background="@color/c_16143c"
+        android:padding="22dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/write_a_review"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:background="@color/c_16143c"
+        android:paddingStart="33dp"
+        android:paddingEnd="33dp"
+        android:paddingBottom="20dp">
+        <ImageView android:id="@+id/iv_first_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_black_star"/>
+        <ImageView android:id="@+id/iv_second_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_first_star"
+            android:src="@mipmap/ic_black_star"
+            android:layout_marginStart="17dp"/>
+        <ImageView android:id="@+id/iv_third_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_black_star"
+            android:layout_marginStart="17dp"/>
+        <ImageView android:id="@+id/iv_forth_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_third_star"
+            android:src="@mipmap/ic_black_star"
+            android:layout_marginStart="17dp"/>
+        <ImageView android:id="@+id/iv_fifth_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_forth_star"
+            android:src="@mipmap/ic_black_star"
+            android:layout_marginStart="17dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/c_16143c">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:text="@string/please_rate_us"
+            android:layout_gravity="center_horizontal"/>
+        <RelativeLayout
+            android:layout_width="262dp"
+            android:layout_height="85dp"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp">
+            <EditText android:id="@+id/et_rate_review"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_1d1a4d"
+                android:layout_marginTop="24dp"
+                android:textSize="11sp"
+                android:textColor="#80ffffff"
+                android:textColorHint="#80ffffff"
+                android:hint="@string/describe_your_problem"
+                android:padding="12dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="262dp"
+        android:layout_height="18dp"
+        android:background="@color/c_16143c"/>
+
+    <LinearLayout android:id="@+id/llt_rate_send"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        >
+        <TextView android:id="@+id/tv_rate_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_1d1a4d"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+        <TextView android:id="@+id/tv_rate_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_ff4a52"
+            android:gravity="center"
+            android:text="@string/send"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+</LinearLayout>

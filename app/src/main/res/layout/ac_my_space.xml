@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#16143c">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <ImageView android:id="@+id/iv_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_title_back_navigator"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/my_space"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="26dp"
+        android:visibility="gone"
+        android:layout_marginEnd="26dp">
+        <TextView android:id="@+id/tv_album"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:onClick="goAlbum"
+            android:background="@drawable/bg_my_space_title_selected"
+            android:text="@string/album"
+            android:gravity="center"/>
+        <TextView android:id="@+id/tv_shortvideo"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/bg_my_space_title_default"
+            android:textColor="@color/white"
+            android:onClick="goShortVideo"
+            android:textSize="16sp"
+            android:text="@string/short_video"
+            android:gravity="center"/>
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_space"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp"/>
+</LinearLayout>

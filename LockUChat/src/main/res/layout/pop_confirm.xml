@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_pop_confirm"
+        android:paddingStart="13dp"
+        android:paddingEnd="13dp"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:gravity="center"
+            android:text="Please save your id and password to login again."
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:layout_marginBottom="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="74dp"
+                android:layout_height="40dp"
+                android:text="@string/lockchat_cancel"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:background="@drawable/bg_confirm_cancel"
+                />
+            <TextView
+                android:id="@+id/tv_sure"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/lockchat_ok"
+                android:textColor="@color/white"
+                android:layout_marginStart="14dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:background="@drawable/bg_confirm_sure"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

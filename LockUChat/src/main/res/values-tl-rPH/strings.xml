@@ -1,0 +1,139 @@
+<resources>
+    <!--    云信相关-->
+    <string name="notification_status_audio_msg">May natanggap ka na audyo mensahe galing %1$s</string>
+    <string name="notification_status_custom_msg">Mayroon kang kustom na mensahe galing %1$s</string>
+    <string name="notification_status_file_msg">natanggap mo ang file galing %1$s</string>
+    <string name="notification_status_location_msg">%1$s nagbigay ng lokasyon sa mensahe </string>
+    <string name="notification_status_multi_msg_incoming">Natanggap na mensahe galing %1$d contact s</string>
+    <string name="notification_status_notification_msg">%1$s abiso</string>
+    <string name="notification_status_image_msg">natanggap na litrato galing %1$s</string>
+    <string name="notification_status_ticker_text">natanggap na mensahe galing %1$s</string>
+    <string name="notification_status_unsupported_msg">%1$s: hindi supportado na mensahe </string>
+    <string name="notification_status_video_msg">natanggap na bidyo mensahe galing %1$s</string>
+    <string name="notification_status_hidden_msg_content">ikaw nakatanggap ng bagong mensahe </string>
+
+    <string name="msg_gift">(regalo)</string>
+    <string name="msg_unknown">hindi kilala</string>
+    <string name="msg_voice_chat">Boses chat</string>
+    <string name="msg_video_chat">Tawag sa video</string>
+    <string name="msg_picture_message">[Larawan]</string>
+    <string name="msg_video_message">Video</string>
+    <string name="msg_audio_message">Video</string>
+
+
+    <!--    云信相关-->
+
+    <!--  其他  -->
+    <string name="locku_im_online">Linya </string>
+    <string name="locku_im_offline">Wala sa linya</string>
+    <string name="locku_im_busy">abala</string>
+    <string name="today">Ngayon</string>
+    <string name="yesterday">Kahapon</string>
+
+    <string-array name="weekname">
+        <item>Lunes</item>
+        <item>martes</item>
+        <item>miyerkules</item>
+        <item>huwebes </item>
+        <item>byernes</item>
+        <item>sabado</item>
+        <item>dominggo</item>
+    </string-array>
+    <string name="novip_info">siya nag set-up ng katulong upang mabasa ang menshae agad agad</string>
+    <string name="send">Ipadala</string>
+    <string name="hold_and_talk">Hawakan at pag-usapan</string>
+    <string name="release_to_end">Pakawalan hanggang sa wakas</string>
+    <string name="release_send">I-release ipadala</string>
+    <string name="photo">larawan </string>
+
+    <string name="click_to_call_back_now">i-click para sa tawag pabalik ngayon</string>
+    <string name="record_failed">nabigong mai-rekord, mangyaring ulitin</string>
+    <string name="record_max_time">Gusto mo bang magpadala ng rekording sa maximum na oras? </string>
+
+    <string name="avcall_cancel">Kanselahin</string>
+    <string name="avcall_is_reject">Tumanggi</string>
+    <string name="avcall_be_rejected">Tumanggi</string>
+    <string name="avcall_no_pick_up">walang sagot</string>
+    <string name="avcall_is_busy_opposite">Ang ibang partido ay busy</string>
+    <string name="avcall_is_busy_self">walang sagot</string>
+    <string name="give">bigyan</string>
+    <string name="recharge">Mag-recharge</string>
+
+    <string name="new_call">mayroon ka bagong tawag</string>
+    <string name="net_call">[Network sa tawag]</string>
+    <string name="answer_ing">sagot</string>
+    <string name="error_page_later">Pahina error, mangyaring balikan muli</string>
+    <string name="the_other_party">Ang ibang partido</string>
+    <string name="invite_4_voice">imbitahan sa voice chat</string>
+    <string name="invite_4_video">imbitahan sa voice chat </string>
+
+    <string name="str_wait_for_an_answer">Naghihintay ng sagot</string>
+
+    <string name="orther_internet_quality_no">Ang network sa kabilang linya ay mahina</string>
+    <string name="orther_internet_quality_no_maybe">Ang kalidad sa ibang side 8#180;s network tila mahina</string>
+    <string name="get_vip_failed">Nabigong makakuha ng VIP status</string>
+    <string name="she_hung_up">Ang network ay nagloko</string>
+    <string name="confirm_hung_up">Sigurado kba gusto mag hang-up?</string>
+    <string name="tips">Mga tips</string>
+    <string name="lockchat_cancel">Kanselahin</string>
+    <string name="lockchat_ok">Kumpirmahin</string>
+
+    <string name="call_timeout">Tawag sa timeout </string>
+    <string name="internet_is_not_can_use">Nabigong network connection, mangyaring tingnan ito</string>
+    <string name="other_busy">Ang ibang partido ay busy, tawagan nlng ulit</string>
+    <string name="avchat_call_finish">tapusin ang tawag</string>
+    <string name="diamond_is_not_enough">Ang iyong diamante ay hindi sapat</string>
+    <string name="report">Ulat</string>
+    <string name="block">I-block </string>
+    <string name="follow">sundan</string>
+
+    <string name="internet_is_no_good">Ang network ay hindi pa magagamit</string>
+    <string name="nologin_in">Hindi naka logged-in </string>
+    <string name="connecting">nag connecting...</string>
+    <string name="logining">nag log-in...</string>
+
+    <string name="please_select_gift">Mangyaring pumili ng regalo</string>
+    <string name="open_permission_to_chat">I-enable sa tawag na permiso </string>
+    <string name="block_fail">Nabigong mai-block</string>
+    <string name="send_failed">nabigong magpadala </string>
+
+    <string name="del_chat">Tanggalin itong chat</string>
+    <!--上面是 2021.1.12的翻译 结尾是 del_chat-->
+    <!--  2020-12-10 20:14以后添加的字符串-->
+    <string name="vip_time_expired">VIP na-expired</string>
+    <string name="each_min">/minuto</string>
+    <string name="version_old_please_update">Itong bersyon ay nai-hold, mangyaring mag-update</string>
+
+    <string name="video_strategy_left">Ang tawag ito</string>
+    <string name="video_strategy_right">,limitado ito %s</string>
+    <string name="reply">sagutin</string>
+    <string name="user_is_blacked">tinanggal nag gumagamit</string>
+    <string name="block_suc">Matagumpay sa pag block</string>
+
+    <!--  2020-01-12 17:51以后添加的字符串-->
+    <string name="open_permission_to_use">I-enable sa tawag na permiso </string>
+    <!--2021.1.14 以上翻译过了 结尾是 open_permission_to_use-->
+    <string name="click_back_to_continue_answer">Pindutin ito pa balik sa tawag</string>
+
+    <!--  2021-01-29 14:43以后添加的字符串-->
+    <string name="str_loading">Nagloloading</string>
+    <string name="str_connectting">nag konekta</string>
+
+
+    <!--    2021-02-03 12:42-->
+    <string name="str_msg_ask_gift">[Magtanong sa Regalo]</string>
+    <string name="str_ask_for">Magtanong sa </string>
+    <string name="str_title_ask_for">%1$s umaasang mabigyan siay ng regalo ( ina hope you can give her a gift) </string>
+    <string name="str_title_receive_send_gift">Binigyan ka ni %1$s ng</string>
+    <string name="str_title_send_send_gift">Nagbigay ka ng kay %1$s</string>
+    <string name="str_default_send_gift_desc">Ang lahat ay mga salita ng pag-ibig </string>
+    <!--2021.2.4已翻译结尾str_default_send_gift_desc-->
+    <string name="str_entering">Ang ibang partido ay nagta-type…</string>
+    <string name="send_video_invitation">magpadala ng bidyo na imbitasyon</string>
+    <string name="i_am_waiting_for_you"> Ako naghihintay sayo</string>
+    <string name="replay_ask">Magreply at tanungin ang  impormasyon</string>
+    <string name="reply_success">Matagumpay sa tugon</string>
+    <string name="wait_replay">nag-aantay sayong tugon</string>
+    <!--2021.3.8 已翻译 wait_replay -->
+    <string name="send_voice_invitation">magpadala ng audyo na imbitasyon</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myRatingBar">
+        <item name="android:progressDrawable">@drawable/shape_star</item>
+        #背景等样式
+        <item name="android:minHeight">16dp</item>
+        #最小高度
+        <item name="android:maxHeight">15dp</item>
+        #最大高度
+        <item name="android:thumb">@null</item>
+        #一般设置为null
+        <item name="android:isIndicator">true</item>
+        #是否是展示，true，只能看不能点击
+    </style>
+</resources>

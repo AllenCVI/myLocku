@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="7dp"
+    android:paddingTop="7dp"
+    android:gravity="end">
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:11"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/ll_msg_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_head_left"
+            android:layout_width="44dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="gone"
+            />
+        <include
+            android:id="@+id/layout_msg_progress"
+            layout="@layout/layout_msg_progress"/>
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/content_view"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:maxWidth="220dp"
+                android:maxHeight="220dp"
+                android:background="@drawable/bg_msg_left"/>
+            <ImageView
+                android:id="@+id/iv_start_play"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_start_video"/>
+            <ProgressBar
+                android:id="@+id/pb_downing"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/iv_head_right"
+            android:layout_width="44dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+</LinearLayout>

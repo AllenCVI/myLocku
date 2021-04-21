@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <ImageView android:id="@+id/iv_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_title_back_navigator"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/set_pwb"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/tv_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/complete"
+            android:gravity="center"
+            android:maxLength="11"
+            android:ellipsize="end"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/color_B3FFFFFF"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_newPwb"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/shape_et_bg_set_pwb"
+        android:textSize="13sp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="24dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Enter_new_pwb"
+        android:inputType="textPassword"
+        android:textColor="@color/color_99FFFFFF"
+        android:textColorHint="@color/color_66ffffff"
+        />
+
+    <EditText
+        android:id="@+id/et_confirmPwb"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/shape_et_bg_set_pwb"
+        android:textSize="13sp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="24dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/color_99FFFFFF"
+        android:hint="@string/Enter_pwb_again"
+        android:textColorHint="@color/color_66ffffff"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_rulePwb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pwbRule"
+        android:textSize="12sp"
+        android:textColor="@color/color_66ffffff"
+        android:layout_marginTop="21dp"
+        android:layout_marginStart="20dp"
+        />
+
+</LinearLayout>

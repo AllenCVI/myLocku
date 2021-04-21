@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#16143c">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <ImageView android:id="@+id/iv_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_title_back_navigator"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/my_diamond"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/bg_me_my_diamond">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="46dp"
+                    android:textSize="13sp"
+                    android:textColor="#16143c"
+                    android:text="@string/number_of_available_diamonds" />
+
+                <TextView
+                    android:id="@+id/tv_my_diamond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginStart="46dp"
+                    android:textSize="23sp"
+                    android:textColor="#16143c"
+                    tools:text="1988"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_my_diamond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/bg_vip_open"
+                android:gravity="center"
+                android:onClick="open"
+                android:layout_marginStart="75dp"
+                android:layout_marginEnd="75dp"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:text="@string/open_page_page"
+                android:layout_marginBottom="30dp" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/ll_network"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            layout="@layout/layout_common_network_error"></include>
+
+        <include
+            android:id="@+id/rl_progress"
+            layout="@layout/layout_common_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</LinearLayout>

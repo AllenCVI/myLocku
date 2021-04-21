@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#50000000"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="132dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/c_16143c" />
+
+            <ImageView
+                android:layout_width="262dp"
+                android:layout_height="132dp"
+                android:src="@mipmap/diamond_intercept_top"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/vip_intercept_back"
+                android:scaleType="centerInside"></ImageView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="17dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/shape_c16143c_bc16">
+
+            <TextView
+                android:id="@+id/tv_label"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="@color/color_30ffffff" />
+
+            <TextView
+                android:id="@+id/tv_btn"
+                android:layout_width="173dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:background="@drawable/bg_dialog_confirm"
+                android:textSize="14sp"
+                android:text="@string/continue_to_recharge"
+                android:textColor="@color/white"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

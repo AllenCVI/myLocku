@@ -1,0 +1,254 @@
+<resources>
+    <string name="name">LockU</string>
+    <string name="ranking_list">Ranking List</string>
+    <string name="rule">Rule</string>
+    <string name="goddess">goddess</string>
+    <string name="rich">rich</string>
+    <string name="each_min">/min</string>
+    <string name="album">Album</string>
+    <string name="short_video">Short videos</string>
+    <string name="report">Report</string>
+    <string name="block">Block</string>
+    <string name="cancel">Cancel</string>
+    <string name="not_interested">Not interested</string>
+
+    <!-- me -->
+    <string name="mine">Mine</string>
+    <string name="membership_service">Membership service</string>
+    <string name="my_space">My space</string>
+    <string name="my_diamond">My diamond</string>
+    <string name="number_of_available_diamonds">Number of available diamonds:</string>
+    <string name="recent_visitors">Recent Visitors</string>
+    <string name="edit_information">Edit information</string>
+    <string name="setting">Setting</string>
+    <string name="one_click_register">One-click registration</string>
+    <string name="click_here_for_old_accounts">Click here for old accounts</string>
+    <string name="register_content">Registration means that you have read and agreed to the </string>
+    <string name="register_platform">platform</string>
+    <string name="register_user_agreement">User Agreement</string>
+    <string name="register_and">and</string>
+    <string name="register_policy">Privacy Policy</string>
+    <string name="register_title">Hi! Your gender is...</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="register_btn">PAIR UP IMMEDIATELY</string>
+
+    <string name="avatar">Avatar</string>
+    <string name="nickname">Nickname</string>
+    <string name="user_login">User login</string>
+    <string name="login_has">has an account password login</string>
+    <string name="account_number">Account number</string>
+    <string name="account_pwd">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="upload_profile_picture">Upload profile picture</string>
+    <string name="personal_signature">Personal signature</string>
+    <string name="save">Save</string>
+    <string name="persinal_signature_limit">/60</string>
+    <string name="submit">Submit</string>
+    <string name="report_reason1">Erotic</string>
+    <string name="report_reason2">Violence/Verbal assault</string>
+    <string name="report_reason3">Advertising fraud</string>
+    <string name="report_reason4">Other</string>
+    <string name="str_report_title_info">Please tell us the reason for the report </string>
+    <string name="str_report_edit_info">There are other things you want to say...</string>
+    <string name="upload_certificate">Upload certificate</string>
+
+    <string name="user_information">User information</string>
+    <string name="rate_us">Rate us</string>
+    <string name="about_locku">About LockU</string>
+    <string name="switch_user">Switch user</string>
+    <string name="login_account">Login account</string>
+    <string name="password">Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="modify_password_tips">Please keep your Tryst account information safe and don’t disclose it to others to avoid economic loss.</string>
+    <string name="version_number">Version number v%1$s</string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="world_travel">World Travel</string>
+    <string name="hot">Hot</string>
+    <string name="show">Show</string>
+    <string name="enjoy_locku">Enjoying LockU?</string>
+    <string name="rate_gp_tips">Tap any star to rate it on the Google Play.Please disribe the problem you are experiencing.</string>
+    <string name="not_now">Not now</string>
+    <string name="ok">Ok</string>
+    <string name="write_a_review">Write a Review</string>
+    <string name="please_rate_us">Please rate us</string>
+    <string name="describe_your_problem">Please disribe the problem you are experiencing.</string>
+    <string name="send">Send</string>
+    <string name="review_sent">Thank you for your review!</string>
+    <string name="please_write_review">Please write a review</string>
+    <string name="modify_password">Modify password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="password_rules">Please enter a at least 6 digits or alphanumeric</string>
+    <string name="please_input_old_password">Please input an old password</string>
+    <string name="please_input_new_password">Please input a new password</string>
+    <string name="dear_name">Dear %1$s</string>
+    <string name="see_mee_tips">Not long ago ，many girls read your personal information</string>
+    <string name="becoming_vip_member">Becoming a VIP member</string>
+    <string name="vip_information">VIP members can view all recent visitor information</string>
+    <string name="open_page_page">Open</string>
+    <string name="month_vip">%1$s Month VIP</string>
+    <string name="buy_diamond">Buy %1$s diamonds</string>
+    <string name="no_discount">No Discount</string>
+    <string name="only">only</string>
+    <string name="member_centre">Member Centre</string>
+    <string name="chat_free">Chat freely</string>
+    <string name="pay_top_tips">Have fun chatting,free voice</string>
+    <string name="pay_diamond_vip_tips">Have fun chatting,free speech,get closer</string>
+    <string name="choose_payment_method">Choose a payment method</string>
+    <string name="confirm_pay_with_price">Confirm payment(%1$s)</string>
+    <string name="confirm_pay">Confirm payment</string>
+    <string name="confirm_rules">Click to open,you have read and agreed to the Member Payment Agreement</string>
+    <string name="msg_tips">Your grade is low, please play it often.</string>
+    <string name="nickname_is_empty">Please enter nickname</string>
+    <string name="modify_success">Modified successfully</string>
+    <string name="no_camera_permission">No camera permission</string>
+    <string name="no_camera_or_external_storage_permission">No camera or external storage permission</string>
+    <string name="upload_image_error">Upload image failed</string>
+    <string name="upload_image_success">Upload image success</string>
+    <string name="portrait_modified_success">Your portrait modified successfully</string>
+    <string name="no_external_storage_permission">No external storage permission</string>
+    <string name="product_off">%1$s</string>
+    <string name="add_photos">add photos</string>
+    <string name="google_pay_unavailable">Google Pay Unavailable</string>
+    <string name="google_pay_failed">Google Pay failed</string>
+    <string name="google_pay_success">Google Pay success</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure_delete_picture">Are you sure you want to delete the picture</string>
+    <string name="delete_image_success">The picture deleted successfully</string>
+    <string name="confirm">Confirm</string>
+    <string name="are_your_sure_switch_user">Are you sure you want to switch a user?</string>
+    <string name="modify_pwd_success">Your password modified successfully</string>
+    <string name="new_msg_click_to_read">%1$s new messages,click to read!</string>
+    <string name="system_msg_title">System notification</string>
+
+    <string name="message">Message</string>
+
+
+    <string name="she_details_rank_title">Intimacy Ranking</string>
+    <string name="she_details_gift_title">Gift</string>
+    <string name="she_details_gift_second_title">Total received - %1$s gifts</string>
+    <string name="report_empty_content">Your report content is empty</string>
+    <string name="report_empty_img">Your report image is empty</string>
+    <string name="diamond_is_sufficient">Your diamond balance is insufficient, please recharge soon</string>
+    <string name="diamond_recharge_confirm">Buy now</string>
+    <string name="hello_failed">Failed to say hello</string>
+    <string name="hello_success">Nice to meet you</string>
+    <string name="diamond_is_or_not_sufficient_failed">Getting the number of diamonds failed</string>
+    <string name="failed_to_get_vip_status">Failed to get VIP status</string>
+    <string name="have_already_used_five_chances">You have already used 5 free greeting chances, buy VIP and chat freely</string>
+    <string name="hi">Hi</string>
+    <string name="load_video_failed">Failed to load videos</string>
+    <string name="load_goods_failed">Failed to load goods</string>
+    <string name="load_diamond_failed">Load diamond goods failed</string>
+    <string name="load_pay_failed">Load diamond goods failed</string>
+    <string name="report_suc">Report Success</string>
+    <string name="pay_failed">payment failed</string>
+    <string name="load_pay_url_failed">Payment url loading failed</string>
+    <string name="load_visitors_failed">Visitors loading failed</string>
+    <string name="load_system_msg_failed">System msg loading failed</string>
+    <string name="upload_photo_failed">Failed to upload photo</string>
+    <string name="no_interested_error">Operation failed</string>
+    <string name="get_user_info_error">Failed to get user info</string>
+    <string name="delete_image_failed">Failed to delete picture</string>
+    <string name="modify_error">Failed to edit</string>
+    <string name="get_vip_failed">Failed to get VIP status</string>
+
+    <string name="block_content">Block this user?They will not be able to see your personal information on LockU</string>
+    <string name="tip_title">Tips</string>
+    <string name="facebook_sign_in">Facebook sign in</string>
+    <string name="login_failed">Login failed</string>
+    <string name="online">Online</string>
+    <string name="busy">Busy</string>
+    <string name="offline">Offline</string>
+    <string name="ID">ID </string>
+
+
+
+    <!-- 2020-12-11 16：54以后的字符串添加到这个下面 -->
+    <string name="confirm_password">Confirm password</string>
+    <string name="please_input_new_password_again">Please enter the password again</string>
+    <string name="two_password_not_match">Two password entries are not same </string>
+    <string name="network_error">Network error, click again</string>
+    <string name="network_not_available">Network connection failed, please check your network Settings</string>
+
+    <!--3.2 新需求 2021.1.12-->
+    <string name="upgrade">How to upgrade the level?</string>
+    <string name="MakeVideoCall">Make a video call</string>
+    <string name="sendGift">Send gifts</string>
+    <string name="makeVoiceCall">Make a voice call</string>
+    <string name="gradeTableText">Your grade correspondence table is as follows</string>
+    <string name="my_level">My level</string>
+    <string name="DiamondConsumption">Diamond consumption</string>
+    <string name="Level">Level</string>
+    <string name="Lv">Lv</string>
+    <string name="AccountAndSecurity">Account and security</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Google">Google</string>
+    <string name="set_pwb">Set password</string>
+    <string name="complete">complete</string>
+    <string name="Enter_new_pwb">Enter new password </string>
+    <string name="Enter_pwb_again">Enter New password again </string>
+    <string name="pwbRule">6-16digits password,numbers or letters</string>
+    <string name="set_avatar">Set avatar</string>
+    <string name="Skip">Skip</string>
+    <string name="congratulations_setAvatar">Congratulations，registration is successful</string>
+    <string name="uniqueId">Your unique ID： </string>
+    <string name="upload_photo">Upload a clear face photo，which can increase exposure </string>
+    <string name="next_step">Next step</string>
+    <string name="Enter_old_pwb">Enter old password </string>
+    <string name="gender">Gender：</string>
+    <string name="can_not_change">Gender cannot be modified after success</string>
+    <string name="please_select_picture">Please select a picture</string>
+    <string name="get_photo_failed">Failed to get photo</string>
+    <string name="link">Link</string>
+    <string name="unlink">Unlink</string>
+    <string name="bind_failed">Link failed</string>
+    <string name="bind_success">Link success</string>
+    <string name="unbind_success">Unlink success</string>
+    <string name="unbind_failed">Unlink failed </string>
+    <string name="set_pwb_success">Set password success</string>
+    <string name="score">Score</string>
+    <string name="not_set">Not set </string>
+    <string name="mutu_follow">Mutually follow</string>
+    <string name="fans">Fans</string>
+    <string name="follow">Follow</string>
+    <string name="friend">Friend</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="search_follow">Search for following users</string>
+    <string name="empty_follow">You do not have mutually followed friends</string>
+    <string name="follow_suc">Follow successfully</string>
+    <string name="unfollow_suc">Unfollow successfully</string>
+    <string name="follow_error">Follow error</string>
+    <string name="unfollow_error">Unfollow error</string>
+    <string name="no_fans">You have no fans</string>
+    <string name="no_friends">You do not have mutually followed friends</string>
+    <string name="no_follow">You have not followed other users yet</string>
+
+    <string name="select_rate_level">You have not rated the star</string>
+    <string name="select_rate_tag">Please give the selection evaluation label</string>
+    <string name="choose_max_three">Choose the right label, you can choose up to three.</string>
+    <string name="eva_suc">Successful evaluation</string>
+    <string name="eva_error">Evaluation failed</string>
+
+    <!--2021.1.14 上面翻译过了结尾是 eva_error-->
+
+
+    <string name="complete_information">Complete information</string>
+    <string name="bindTip">Please link your third-party  account  to log into your  current account.</string>
+    <!--2021.1.27-->
+    <string name="Exit">Exit</string>
+    <string name="Go_chat">Go chat</string>
+    <string name="continue_to_recharge">Continue to recharge</string>
+    <string name="nickNameIllegal">Improper Nickname</string>
+    <string name="PersonalSignatureIllegal">Improper Signature</string>
+    <!--2021.2.4 已翻译结尾是PersonalSignatureIllegal-->
+    <string name="one_click_greeting">One-click greeting</string>
+    <string name="vip_visible">VIP visible</string>
+    <!--2021.3.8 已翻译结尾是vip_visible-->
+    <string name="str_loading">Loading...</string>
+    <string name="more">More</string>
+    <string name="all">ALL</string>
+</resources>

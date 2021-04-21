@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    云信相关-->
+    <string name="notification_status_audio_msg">received an audio message from %1$s</string>
+    <string name="notification_status_custom_msg">received a custom message from %1$s</string>
+    <string name="notification_status_file_msg">received a file from %1$s</string>
+    <string name="notification_status_location_msg">%1$s shared a location message</string>
+    <string name="notification_status_multi_msg_incoming">received messages from %1$d contacts</string>
+    <string name="notification_status_notification_msg">%1$s: notification</string>
+    <string name="notification_status_image_msg">received a picture from %1$s</string>
+    <string name="notification_status_ticker_text">received a message from %1$s</string>
+    <string name="notification_status_unsupported_msg">%1$s: unsupported message type</string>
+    <string name="notification_status_video_msg">received a video message from %1$s</string>
+    <string name="notification_status_hidden_msg_content">you received a new message</string>
+
+    <string name="msg_gift">[Gift]</string>
+    <string name="msg_unknown">[Unknown]</string>
+    <string name="msg_voice_chat">[Voice chat]</string>
+    <string name="msg_video_chat">[Video chat]</string>
+    <string name="msg_picture_message">[Picture]</string>
+    <string name="msg_video_message">[Video]</string>
+    <string name="msg_audio_message">[Audio]</string>
+
+
+    <!--    云信相关-->
+
+    <!--  其他  -->
+    <string name="locku_im_online">Online</string>
+    <string name="locku_im_offline">Offline</string>
+    <string name="locku_im_busy">Busy</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <string-array name="weekname">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="novip_info">She set up a message assistant and can receive your reply immediately!</string>
+    <string name="send">Send</string>
+    <string name="hold_and_talk">HOLD AND TALK</string>
+    <string name="release_to_end">RELEASE TO END</string>
+    <string name="release_send">Release send</string>
+    <string name="photo">Photo</string>
+
+    <string name="click_to_call_back_now">Click to call back now</string>
+    <string name="record_failed">The recording failed. Please try again</string>
+    <string name="record_max_time">Do you want to send the recording to the maximum time?</string>
+
+    <string name="avcall_cancel">Cancelled</string>
+    <string name="avcall_is_reject">Rejected</string>
+    <string name="avcall_be_rejected">Rejected</string>
+    <string name="avcall_no_pick_up">No answer</string>
+    <string name="avcall_is_busy_opposite">The other party is busy</string>
+    <string name="avcall_is_busy_self">No answer</string>
+    <string name="give">Give</string>
+    <string name="recharge">Recharge</string>
+
+    <string name="new_call">You have a new call</string>
+    <string name="net_call">[Network call]</string>
+    <string name="answer_ing">answer...</string>
+    <string name="error_page_later">Page error, please try again later</string>
+    <string name="the_other_party">The other party</string>
+    <string name="invite_4_voice"> Invites you to a voice chat ... </string>
+    <string name="invite_4_video"> Invites you to a video chat ... </string>
+
+    <string name="str_wait_for_an_answer">Waiting for the answer ... </string>
+
+    <string name="orther_internet_quality_no">The network quality of the other side is poor</string>
+    <string name="orther_internet_quality_no_maybe">The quality of the other side &#180;s network seems poor</string>
+    <string name="get_vip_failed">Failed to get VIP status</string>
+    <string name="she_hung_up">The other party hung up</string>
+    <string name="confirm_hung_up">Are you sure you want to hang up?</string>
+    <string name="tips">Tips</string>
+    <string name="lockchat_cancel">Cancel</string>
+    <string name="lockchat_ok">Confirm</string>
+
+    <string name="call_timeout">Call timeout</string>
+    <string name="internet_is_not_can_use">Network connection failed, please check your network Settings</string>
+    <string name="other_busy">The other party is busy, please call later</string>
+    <string name="avchat_call_finish">Call end</string>
+    <string name="diamond_is_not_enough">Your diamond is not enough</string>
+    <string name="report">Report</string>
+    <string name="block">Block</string>
+    <string name="follow">Follow</string>
+
+    <string name="internet_is_no_good">The network is currently unavailable</string>
+    <string name="nologin_in">Not logged in</string>
+    <string name="connecting"> Connecting...</string>
+    <string name="logining">Log in...</string>
+
+    <string name="please_select_gift">Please choose a gift</string>
+    <string name="open_permission_to_chat">Enable permission to call</string>
+    <string name="block_fail">Failed to block</string>
+    <string name="send_failed">Sending failed</string>
+
+    <string name="del_chat">Delete this chat</string>
+
+
+    <!--  2020-12-10 20:14以后添加的字符串-->
+    <string name="vip_time_expired">VIP expired</string>
+    <string name="each_min">/min</string>
+    <string name="version_old_please_update">This version is too old, please update</string>
+    <string name="video_strategy_left">This call is</string>
+    <string name="video_strategy_right">,limited to %s</string>
+    <string name="reply">Reply</string>
+    <string name="user_is_blacked">The user has been deleted</string>
+    <string name="block_suc">block success</string>
+
+    <!--  2021-01-12 17:51以后添加的字符串-->
+    <string name="open_permission_to_use">Enable permission to call</string>
+    <!--2021.1.14 以上翻译过了 结尾是 open_permission_to_use-->
+
+    <string name="click_back_to_continue_answer">Click here to return to the call</string>
+
+    <!--  2021-01-29 14:43以后添加的字符串-->
+    <string name="str_loading">Loading</string>
+    <string name="str_connectting">Connecting</string>
+
+
+    <!--    2021-02-03 12:42-->
+    <string name="str_msg_ask_gift">[Ask for gifts]</string>
+    <string name="str_ask_for">Ask for</string>
+    <string name="str_title_ask_for">%1$s hope you can give her a present</string>
+    <string name="str_title_receive_send_gift">%1$s gave you</string>
+    <string name="str_title_send_send_gift">You gave %1$s</string>
+    <string name="str_default_send_gift_desc">Everything is but a word of love</string>
+    <!--2021.2.4已翻译结尾str_default_send_gift_desc-->
+    <string name="send_video_invitation">Send a video invitation</string>
+    <string name="i_am_waiting_for_you">I am waiting for you~</string>
+    <!--2021-03-02-->
+    <string name="replay_ask">Reply and ask for contact information</string>
+    <string name="wait_replay">waiting for reply</string>
+    <string name="reply_success">reply success</string>
+
+    <!--    2021-03-02 10:28-->
+    <string name="str_entering">The other party is typing...</string>
+    <!--2021.3.8 已翻译 str_entering -->
+
+    <string name="send_voice_invitation">Send a voice invitation</string>
+</resources>

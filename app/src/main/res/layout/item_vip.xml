@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llt_item_vip"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_item_vip_select"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_vip_month_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:includeFontPadding="false"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/tv_vip_off_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="12321412"
+            android:visibility="gone"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:includeFontPadding="false"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/bg_vip_off_select" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></View>
+
+        <LinearLayout
+            android:id="@+id/ll_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_vip_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end|center_vertical"
+                android:textColor="#ccffffff"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_vip_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp" />
+
+            <TextView
+                android:id="@+id/tv_vip_only"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ccffffff"
+                android:textSize="11sp"
+                android:layout_marginEnd="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_no_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/no_discount"
+            android:paddingTop="2dp"
+            android:visibility="gone"
+            android:paddingBottom="2dp"
+            android:includeFontPadding="false"
+            android:background="@drawable/bg_vip_off_select" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

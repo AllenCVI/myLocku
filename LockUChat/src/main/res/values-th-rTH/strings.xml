@@ -1,0 +1,139 @@
+<resources>
+    <!--    云信相关-->
+    <string name="notification_status_audio_msg">ได้รับข้อความเสียงจาก%1$s</string>
+    <string name="notification_status_custom_msg">ได้รับข้อความจาก%1$s</string>
+    <string name="notification_status_file_msg">ได้รับไฟล์จาก%1$s</string>
+    <string name="notification_status_location_msg">%1$s กำลังแชร์ตำแหน่งของตนอยู่</string>
+    <string name="notification_status_multi_msg_incoming">ได้รับข้อความจากผู้ติดต่อ% 1 $ d ราย</string>
+    <string name="notification_status_notification_msg">%1$s: การแจ้งเตือน</string>
+    <string name="notification_status_image_msg">ได้รับภาพจาก%1$s</string>
+    <string name="notification_status_ticker_text">ได้รับข้อความจาก%1$s</string>
+    <string name="notification_status_unsupported_msg">%1$s: ประเภทข้อความที่ไม่สนับสนุน</string>
+    <string name="notification_status_video_msg">ได้รับข้อความวิดีโอจาก%1$s</string>
+    <string name="notification_status_hidden_msg_content">คุณได้รับข้อความใหม่</string>
+
+    <string name="msg_gift">[ของขวัญ]</string>
+    <string name="msg_unknown">ยังไม่ทราบ</string>
+    <string name="msg_voice_chat">คุยผ่านเสียง</string>
+    <string name="msg_video_chat">คุยผ่านวิดีโอ</string>
+    <string name="msg_picture_message">รูปภาพ</string>
+    <string name="msg_video_message">[วิดีโอ]</string>
+    <string name="msg_audio_message">เสียง</string>
+
+
+    <!--    云信相关-->
+
+    <!--  其他  -->
+    <string name="locku_im_online">ออนไลน์</string>
+    <string name="locku_im_offline">ออฟไลน์</string>
+    <string name="locku_im_busy">ยุ่งอยู่</string>
+    <string name="today">วันนี้</string>
+    <string name="yesterday">เมื่อวานนี้</string>
+
+    <string-array name="weekname">
+        <item>วันจันทร์</item>
+        <item>วันอังคาร</item>
+        <item>วันพุธ</item>
+        <item>วันพฤหัสบดี</item>
+        <item>วันศุกร์</item>
+        <item>วันเสาร์</item>
+        <item>วันอาทิตย์</item>
+    </string-array>
+    <string name="novip_info">เธอตั้งค่าผู้ช่วยข้อความ และสามารถรับการตอบกลับจากคุณได้ทันที !</string>
+    <string name="send">ส่ง</string>
+    <string name="hold_and_talk">กดค้างไว้ตอนพูด</string>
+    <string name="release_to_end">ปล่อยเมื่อหยุดพูด</string>
+    <string name="release_send">ปล่อยเพื่อส่งข้อความเสียง</string>
+    <string name="photo">รูปภาพ</string>
+
+    <string name="click_to_call_back_now">คลิกเพื่อโทรกลับทันที</string>
+    <string name="record_failed">การบันทึกเสียงล้มเหลว กรุณาลองอีกครั้ง</string>
+    <string name="record_max_time">คุณยืนยันจะส่งเสียงการบันทึกที่เป็นเวลายาวที่สุดหรือไม่</string>
+
+    <string name="avcall_cancel">ยกเลิกแล้ว</string>
+    <string name="avcall_is_reject">ถูกปฏิเสธ</string>
+    <string name="avcall_be_rejected">ถูกปฏิเสธ</string>
+    <string name="avcall_no_pick_up">ไม่มีคำตอบ</string>
+    <string name="avcall_is_busy_opposite">อีกฝ่ายไม่ว่าง</string>
+    <string name="avcall_is_busy_self">ไม่มีคำตอบ</string>
+    <string name="give">ส่ง</string>
+    <string name="recharge">เติมเงิน</string>
+
+    <string name="new_call">คุณมีสายใหม่</string>
+    <string name="net_call">[การโทรออนไลน์</string>
+    <string name="answer_ing">ตอบ</string>
+    <string name="error_page_later">หน้านี้เกิดข้อผิดพลาด   โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="the_other_party">อีกฝ่าย</string>
+    <string name="invite_4_voice">เชิญคุณเข้าร่วมการโทรด้ววยเสียง</string>
+    <string name="invite_4_video">ชวนคุณเข้าร่วมวิดีโอแชท</string>
+
+    <string name="str_wait_for_an_answer">รอคำตอบ</string>
+
+    <string name="orther_internet_quality_no">คุณภาพเครือข่ายของอีกด้านไม่ดี</string>
+    <string name="orther_internet_quality_no_maybe">คุณภาพเครือข่ายของ&#180;s ไม่ค่อยดี</string>
+    <string name="get_vip_failed">ไม่สามารถสมัครเป็น VIP ได้</string>
+    <string name="she_hung_up">อีกฝ่ายวางสายแล้ว</string>
+    <string name="confirm_hung_up">คุณแน่ใจจะวางสายหรือ</string>
+    <string name="tips">ข้อแนะนำ</string>
+    <string name="lockchat_cancel">ยกเลิก</string>
+    <string name="lockchat_ok">ยืนยัน</string>
+
+    <string name="call_timeout">หมดเวลาโทร</string>
+    <string name="internet_is_not_can_use">การเชื่อมต่อเครือข่ายล้มเหลวโปรดตรวจสอบการตั้งค่าเครือข่ายของคุณ</string>
+    <string name="other_busy">อีกฝ่ายหนึ่งยังไม่ว่าง โปรดโทรใหม่ภายหลัง</string>
+    <string name="avchat_call_finish"> การโทรสิ้นสุด</string>
+    <string name="diamond_is_not_enough">จำนวนเพชรของคุณไม่พอ</string>
+    <string name="report">รายงาน</string>
+    <string name="block">บล็อก</string>
+    <string name="follow">ติดตาม</string>
+
+    <string name="internet_is_no_good">ตอนนี้ เครือข่ายไม่สามารถใช้งานได้</string>
+    <string name="nologin_in">ไม่ได้เข้าสู่ระบบ</string>
+    <string name="connecting"> กำลังเชื่อมต่ออยู่</string>
+    <string name="logining">เข้าสู่ระบบ.อยู่</string>
+
+    <string name="please_select_gift">โปรดเลือกของขวัญ</string>
+    <string name="open_permission_to_chat">ต้องไมีสิทธิ์การโทร จึงจะโทรได้</string>
+    <string name="block_fail">บล็อกล้มเหลว</string>
+    <string name="send_failed">การส่งล้มเหลว</string>
+
+    <string name="del_chat">ลบการแชทนี้</string>
+    <!--上面是 2021.1.12的翻译 结尾是 del_chat-->
+    <!--  2020-12-10 20:14以后添加的字符串-->
+    <string name="vip_time_expired">VIP หมดอายุ</string>
+    <string name="each_min">นาที</string>
+    <string name="version_old_please_update">เวอร์ชันนี้เก่าเกินไป  โปรดอัปเดต</string>
+
+    <string name="video_strategy_left">สายนี้คือ</string>
+    <string name="video_strategy_right">จำกัด %s</string>
+    <string name="reply">ตอบกลับ</string>
+    <string name="user_is_blacked">ผู้ใช้คนนี้ถูกลบแล้ว</string>
+    <string name="block_suc">บล็อกได้สำเร็จ</string>
+
+    <!--  2020-01-12 17:51以后添加的字符串-->
+    <string name="open_permission_to_use">ต้องไมีสิทธิ์การโทร จึงจะโทรได้</string>
+    <!--2021.1.14 以上翻译过了 结尾是 open_permission_to_use-->
+    <string name="click_back_to_continue_answer">คลิกที่นี่เพื่อกลับไปที่การโทร</string>
+
+    <!--  2021-01-29 14:43以后添加的字符串-->
+    <string name="str_loading">กำลังโหลด</string>
+    <string name="str_connectting">กำลังเชื่อมต่ออยู่</string>
+
+
+    <!--    2021-02-03 12:42-->
+    <string name="str_msg_ask_gift">[ขอ ของขวัญ]</string>
+    <string name="str_ask_for">ขอ</string>
+    <string name="str_title_ask_for">%1$s หวังว่าคุณสามารถส่งของขวัญให้เธอ</string>
+    <string name="str_title_receive_send_gift">%1$s ได้ส่ง ให้คุณ </string>
+    <string name="str_title_send_send_gift">คุณได้ส่ง แก่ %1$s</string>
+    <string name="str_default_send_gift_desc">ทุกสิ่งทุกอย่าง ก็สามารถสรุปเป็นคำหนึ่งคำที่ว่า รัก</string>
+    <!--2021.2.4已翻译结尾str_default_send_gift_desc-->
+    <string name="str_entering">ฝ่ายอื่นกำลังพิมพ์อยู่…</string>
+    <string name="send_video_invitation">โทรวิดีโอแชท</string>
+    <string name="i_am_waiting_for_you"> ฉันกำลังรอคุณอยู่นะ</string>
+    <string name="replay_ask">ตอบกลับ และขอข้อมูลการติดต่อ</string>
+    <string name="reply_success">ตอบกลับสำเร็จ</string>
+    <string name="wait_replay">รอหารตอบกลับ</string>
+    <!--2021.3.8 已翻译 wait_replay -->
+    <string name="send_voice_invitation">โทรด้วยเสียง</string>
+</resources>

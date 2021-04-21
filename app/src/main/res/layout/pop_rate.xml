@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_report"
+        android:layout_width="262dp"
+        android:layout_height="94dp"
+        android:background="@mipmap/ic_rate_top"
+        android:text="@string/enjoy_locku"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:paddingBottom="13dp"/>
+    <RelativeLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:background="@color/c_16143c"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_gp_tips"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:background="@color/c_16143c"
+        android:paddingStart="33dp"
+        android:paddingEnd="33dp"
+        android:paddingBottom="20dp">
+        <ImageView android:id="@+id/iv_first_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_black_star"/>
+        <ImageView android:id="@+id/iv_second_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_first_star"
+            android:src="@mipmap/ic_black_star"
+            android:layout_marginStart="17dp"/>
+        <ImageView android:id="@+id/iv_third_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_black_star"
+            android:layout_marginStart="17dp"/>
+        <ImageView android:id="@+id/iv_forth_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_third_star"
+            android:src="@mipmap/ic_black_star"
+            android:layout_marginStart="17dp"/>
+        <ImageView android:id="@+id/iv_fifth_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_forth_star"
+            android:src="@mipmap/ic_black_star"
+            android:layout_marginStart="17dp"/>
+    </RelativeLayout>
+    <TextView android:id="@+id/tv_not_now"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:background="@color/color_1d1a4d"
+        android:gravity="center"
+        android:text="@string/not_now"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+    <LinearLayout android:id="@+id/llt_submit"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView android:id="@+id/tv_rate_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_1d1a4d"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+        <TextView android:id="@+id/tv_rate_submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_ff4a52"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/llt_go_review"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView android:id="@+id/tv_rate_ok"
+            android:layout_width="262dp"
+            android:layout_height="50dp"
+            android:background="@color/color_1d1a4d"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+        <TextView android:id="@+id/tv_rate_go_review"
+            android:layout_width="262dp"
+            android:layout_height="50dp"
+            android:background="@color/color_ff4a52"
+            android:gravity="center"
+            android:text="@string/write_a_review"
+            android:textSize="14sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

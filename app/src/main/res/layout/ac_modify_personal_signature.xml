@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#16143c">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <ImageView android:id="@+id/iv_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_title_back_navigator"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/personal_signature"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="#1d1a4d"
+        android:layout_marginTop="5dp">
+        <EditText android:id="@+id/et_modify_signature"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:padding="12dp"
+            android:gravity="top|start"
+            android:ellipsize="end"
+            android:maxLength="60"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginEnd="19dp"
+            >
+            <TextView android:id="@+id/tv_personal_input_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#1affffff"
+                android:text="0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#1affffff"
+                android:text="@string/persinal_signature_limit"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView android:id="@+id/tv_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape_common_btn_bg"
+        android:layout_marginTop="90dp"
+        android:onClick="confirm"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:text="@string/save"/>
+
+</LinearLayout>

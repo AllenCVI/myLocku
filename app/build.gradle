@@ -1,0 +1,187 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'AndResGuard'
+apply plugin: 'me.ele.mess'
+
+
+def outputTime() {
+    return new Date().format("yyyy-MM-dd_HH_mm", TimeZone.getDefault())
+}
+
+android {
+    compileSdkVersion externalCompileSdkVersion
+    buildToolsVersion externalBuildToolsVersion
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.outputFileName = "locku_${defaultConfig.versionName}_${variant.productFlavors[0].name}_${variant.buildType.name}_${outputTime()}.apk"
+        }
+    }
+    defaultConfig {
+        buildConfigField "String", "outputTime", "\""+outputTime()+"\""
+        applicationId "com.lockulockme.locku"
+        minSdkVersion externalMinSdkVersion
+        targetSdkVersion externalTargetSdkVersion
+        versionCode 13
+        versionName "1.2.3"
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        viewBinding {
+            enabled = true
+        }
+
+        ndk {
+            abiFilters 'arm64-v8a','armeabi-v7a'
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('locku.keystore')
+            storePassword 'Locku123456'
+            keyAlias 'locku'
+            keyPassword 'Locku123456'
+        }
+    }
+
+    buildTypes {
+        debug {
+            resValue("bool", "print", "true")
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        release {
+            resValue("bool", "print", "false")
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    flavorDimensions "env"
+
+    productFlavors {
+        informal {
+            resValue("bool", "official", "false")
+            dimension "env"
+            signingConfig signingConfigs.release
+
+        }
+        uformal {
+            resValue("bool", "official", "true")
+            dimension "env"
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    //glide 重复so
+    packagingOptions {
+        pickFirst 'lib/armeabi-v7a/libRSSupport.so'
+        pickFirst 'lib/arm64-v8a/libRSSupport.so'
+        pickFirst 'lib/x86_64/libRSSupport.so'
+        pickFirst 'lib/x86/libRSSupport.so'
+        pickFirst 'lib/mips/libRSSupport.so'
+        pickFirst 'lib/arm64-v8a/librsjni.so'
+        pickFirst 'lib/x86/librsjni.so'
+        pickFirst 'lib/x86_64/librsjni.so'
+        pickFirst 'lib/armeabi-v7a/librsjni.so'
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = ['src/main/java']
+            resources.srcDirs = ['src/main/java']
+            aidl.srcDirs = ['src/main/java']
+            renderscript.srcDirs = ['src/main/java']
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs', '../libs-sdk']
+        }
+
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation project(path: ':common')
+    implementation project(path: ':LockUChat')
+    api externalAUTOSIZE
+
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+
+    api 'com.android.billingclient:billing:3.0.0'
+
+    implementation 'com.google.android.gms:play-services-base:17.1.0'
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+    implementation 'com.google.firebase:firebase-core:17.2.3'
+    implementation "com.google.firebase:firebase-analytics:17.5.0"
+
+    implementation 'io.branch.sdk.android:library:5.+'
+    implementation 'com.google.firebase:firebase-appindexing:19.0.0'
+    implementation 'com.google.android.gms:play-services-ads-identifier:*'
+
+    implementation 'com.czp.arcProgressBar:ArcProgressBar:1.0.1'
+
+
+    implementation platform('com.google.firebase:firebase-bom:24.7.0')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation  'com.youth.banner:banner:2.1.0'
+
+//    blink_rx                   : 'io.reactivex.rxjava2:rxjava:2.2.8',
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+}
+
+andResGuard {
+    mappingFile = null
+    use7zip = false
+    useSign = true
+    keepRoot = false
+    fixedResName = "locku"
+    mergeDuplicatedRes = true
+    whiteList = [
+            "R.mipmap.level_icon_place_holder",
+            "R.mipmap.app_icon",
+            "R.mipmap.pay_placeholder",
+            "R.mipmap.icon_placeholder_user",
+            "R.mipmap.ic_album_placeholder",
+            "R.mipmap.country_placeholder",
+            "R.mipmap.ic_male_portrait_placeholder",
+            "R.mipmap.ic_female_portrait_placeholder",
+            "R.mipmap.ic_vip_banner_placeholder",
+            "R.mipmap.video_placeholder",
+            "R.mipmap.normal_placeholder",
+            "R.string.project_id",
+            // for fabric
+            "R.string.com.crashlytics.*",
+            // for google-services
+            "R.string.google_app_id",
+            "R.string.gcm_defaultSenderId",
+            "R.string.default_web_client_id",
+            "R.string.ga_trackingId",
+            "R.string.firebase_database_url",
+            "R.string.google_api_key",
+            "R.string.google_crash_reporting_api_key",
+            "R.string.project_id",
+            "R.string.fcm_fallback_notification_channel_label",
+            "R.string.fcm_*",
+            // for facebook
+            "R.string.facebook_app_id",
+            "R.string.fb_login_protocol_scheme",
+    ]
+    compressFilePattern = [
+            "*.png",
+            "*.jpg",
+            "*.jpeg",
+            "*.gif",
+    ]
+    sevenzip {
+        artifact = 'com.tencent.mm:SevenZip:1.2.19'
+    }
+
+}

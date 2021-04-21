@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_top_bg"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:src="@mipmap/my_level_top_bg"
+        />
+
+            <include
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/nav_head"/>
+
+            <FrameLayout
+                android:id="@+id/fl_avatar"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/shape_avatar_ring_bg_level"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@+id/iv_top_bg"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_avatar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    />
+
+            </FrameLayout>
+
+
+            <com.czp.library.ArcProgress
+                android:id="@+id/arcProgress"
+                android:layout_width="222dp"
+                android:layout_height="116dp"
+                android:layout_alignBottom="@+id/iv_top_bg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="18dp"
+                android:max="100"
+                android:progress="0"
+                app:borderWidth="7dp"
+                app:progressColor="#EFC992"
+                app:radius="110dp"
+                app:degree="180"
+                app:progressStyle="arc"
+                app:unprogresColor="#1AFFFFFF"
+                app:arcCapRound="true"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tv_upLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_top_bg"
+                android:layout_alignStart="@+id/arcProgress"
+                android:textSize="12sp"
+                android:layout_marginStart="-3dp"
+                android:textColor="@color/color_4DFFFFFF"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_nextLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_top_bg"
+                android:layout_alignEnd="@+id/arcProgress"
+                android:textSize="12sp"
+                android:layout_marginEnd="-3dp"
+                android:textColor="@color/color_4DFFFFFF"
+                />
+            
+            <ImageView
+                android:id="@+id/iv_level"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignBottom="@+id/fl_avatar"
+                android:layout_alignEnd="@+id/fl_avatar"
+                android:layout_marginEnd="-3dp"
+                android:visibility="gone"
+                />
+
+    <TextView
+        android:id="@+id/tv_upgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upgrade"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/iv_top_bg"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="44dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_makeVideoCall"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_upgrade"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/shape_bg_level_ll"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:src="@mipmap/make_video_call"
+            android:layout_marginStart="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MakeVideoCall"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginStart="18dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_sendAGift"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ll_makeVideoCall"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/shape_bg_level_ll"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:src="@mipmap/send_gift"
+            android:layout_marginStart="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendGift"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginStart="18dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_makeVoiceCall"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ll_sendAGift"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/shape_bg_level_ll"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:src="@mipmap/make_voice_call"
+            android:layout_marginStart="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/makeVoiceCall"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginStart="18dp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_gradeTable"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gradeTableText"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/ll_makeVoiceCall"
+        android:layout_marginTop="34dp"
+        android:layout_marginStart="23dp"
+        />
+
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_levelTable"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_gradeTable"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_bg_level_ll"
+        />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/rl_progress"
+        layout="@layout/layout_common_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

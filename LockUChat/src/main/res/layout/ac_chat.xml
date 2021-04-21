@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:background="@color/c_1D1A4D"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/iv_nav_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="17dp"
+                android:onClick="onBackNavClick"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@mipmap/icon_back_chat" />
+            <LinearLayout
+                android:id="@+id/ll_nav_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/iv_nav_back"
+                android:layout_toStartOf="@+id/ll_right"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_nav_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="90dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="" />
+                <ImageView
+                    android:id="@+id/iv_level"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="3dp"
+                    />
+                <ImageView
+                    android:id="@+id/iv_country"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="3dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_entering"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_entering"
+                android:textSize="12sp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/iv_nav_back"
+                android:layout_toStartOf="@+id/ll_right"
+                android:visibility="gone"
+                android:textColor="#ccffffff"/>
+
+            <LinearLayout
+                android:id="@+id/ll_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/iv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:padding="9dp"
+                    android:onClick="onChatNavClick"
+                    android:src="@mipmap/icon_phone_chat" />
+
+                <ImageView
+                    android:id="@+id/iv_gift"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:onClick="onChatNavClick"
+                    android:paddingStart="9dp"
+                    android:paddingEnd="9dp"
+                    android:src="@mipmap/icon_gift_chat" />
+                <ImageView
+                    android:id="@+id/iv_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:onClick="onChatNavClick"
+                    android:padding="9dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:src="@mipmap/icon_more_chat" />
+            </LinearLayout>
+
+        </RelativeLayout>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/srl_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl_title">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_chat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+        <LinearLayout
+            android:id="@+id/root_qa"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="70dp"
+            android:visibility="gone"
+            >
+                <LinearLayout
+                    android:id="@+id/content_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_msg_left"
+                    android:padding="13dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:maxWidth="220dp"
+                        android:text="111111111111111111111111111111111111111111111111"
+                        />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_answer"
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_record_voice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#80000000"
+            android:visibility="gone"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="162dp"
+                android:layout_height="177dp"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_record"
+                android:gravity="center">
+                <Chronometer
+                    android:id="@+id/tv_record_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    />
+                <ImageView
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    android:padding="16dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/icon_record_voice_chat"
+                    android:background="@drawable/bg_record_voice"/>
+                <TextView
+                    android:id="@+id/tv_record_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/release_send"
+                    android:layout_marginTop="18dp"
+                    android:textColor="#99ffffff"
+                    android:textSize="13sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:id="@+id/ripple_background"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="53dp"
+            android:onClick="onChatNavClick">
+
+            <ImageView android:id="@+id/iv_video_anim"
+                android:layout_width="71dp"
+                android:layout_height="71dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/bg_video_circle"/>
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_video_inner_circle"/>
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="19dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/centerImage"
+                android:src="@mipmap/ic_chat_video_last"/>
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:id="@+id/rl_noVip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            >
+        <include
+            android:id="@+id/layout_novip"
+            layout="@layout/layout_chat_novip"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/layout_waitForReplay"
+            layout="@layout/layout_chat_wating"
+            android:visibility="gone"/>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/layout_edit"
+            layout="@layout/layout_chat_edit"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

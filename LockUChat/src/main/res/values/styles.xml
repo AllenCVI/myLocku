@@ -1,0 +1,57 @@
+<resources>
+    <style name="ChatAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c_16143c</item>
+        <item name="colorPrimaryDark">@color/c_16143c</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowBackground">@color/c_16143c</item>
+    </style>
+    <style name="ChatPageAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c_1D1A4D</item>
+        <item name="colorPrimaryDark">@color/c_1D1A4D</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowBackground">@color/c_16143c</item>
+    </style>
+    <style name="gift_style" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_in_gift</item>
+        <item name="android:windowExitAnimation">@anim/pop_out_gift</item>
+    </style>
+    <style name="confirm_style" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_in_confirm</item>
+        <item name="android:windowExitAnimation">@anim/pop_out_confirm</item>
+    </style>
+    <style name="Switch">
+        <!--track是switch轨迹部分,这里我们用了一个selector来解决不同状态下轨迹的颜色-->
+        <item name="android:track">@drawable/style_switch_track_selector</item>
+        <!--thumb是switch滑块,这里我们用了Widget.AppCompat.CompoundButton.Switch下带的资源,如果有需要,请自行更换图标-->
+        <item name="android:thumb">@drawable/style_switch_thumb</item>
+        <item name="android:background">@null</item>
+        <!--switch上的文字,插入占位符,解决部分手机不能显示问题-->
+        <!--这个东西才能控制整个开关的宽度, 有些人会发现设置width会无效,设置一下这个就好啦-->
+        <item name="android:switchMinWidth">35dp</item>
+    </style>
+
+    <style name="TransparentTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <!--是否去除标题 -->
+        <item name="windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 背景透明 -->
+        <item name="android:background">#00000000</item>
+        <!-- 没有windowActionBar-->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+</resources>

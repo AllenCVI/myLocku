@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone"
+        android:background="@drawable/shape_c0dffffff_c20"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="17dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/mine_search"></ImageView>
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/transparent"
+            android:gravity="start|center_vertical"
+            android:hint="@string/search_follow"
+            android:singleLine="true"
+            android:textColor="@color/color_30ffffff"
+            android:textColorHint="@color/color_30ffffff"
+            android:textSize="11sp"></EditText>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+        <include
+            android:id="@+id/ll_network"
+            layout="@layout/layout_common_network_error"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent"></include>
+
+        <include
+            android:id="@+id/ll_load"
+            layout="@layout/layout_common_loading"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent"></include>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

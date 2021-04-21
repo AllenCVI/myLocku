@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    云信相关-->
+    <string name="notification_status_audio_msg">%1$s से एक ऑडियो संदेश प्राप्त किया</string>
+    <string name="notification_status_custom_msg">%1$s से एक कस्टम संदेश प्राप्त किया</string>
+    <string name="notification_status_file_msg">%1$s से एक फ़ाइल प्राप्त की</string>
+    <string name="notification_status_location_msg">%1$s  ने एक लोकेशन संदेश साझा किया</string>
+    <string name="notification_status_multi_msg_incoming">%1$d संपर्कों से संदेश प्राप्त हुए</string>
+    <string name="notification_status_notification_msg">%1$s: सूचना</string>
+    <string name="notification_status_image_msg">%1$s से एक चित्र प्राप्त हुआ</string>
+    <string name="notification_status_ticker_text">%1$s से संदेश प्राप्त हुआ</string>
+    <string name="notification_status_unsupported_msg">%1$s: अनसपोर्टेड  संदेश</string>
+    <string name="notification_status_video_msg">%1$s से एक वीडियो संदेश प्राप्त हुआ</string>
+    <string name="notification_status_hidden_msg_content">आपको एक नया संदेश प्राप्त हुआ</string>
+
+    <string name="msg_gift">[गिफ्ट]</string>
+    <string name="msg_unknown">[अज्ञात]</string>
+    <string name="msg_voice_chat">[ऑडियो कॉल]</string>
+    <string name="msg_video_chat">[वीडियो कॉल]</string>
+    <string name="msg_picture_message">[फोटो]</string>
+    <string name="msg_video_message">[वीडियो]</string>
+    <string name="msg_audio_message">[ऑडियो]</string>
+
+
+    <!--    云信相关-->
+
+    <!--  其他  -->
+    <string name="locku_im_online">ऑनलाइन</string>
+    <string name="locku_im_offline">ऑफलाइन</string>
+    <string name="locku_im_busy">व्यस्त</string>
+    <string name="today">आज</string>
+    <string name="yesterday">कल</string>
+
+    <string-array name="weekname">
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरूवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+        <item>रविवार</item>
+    </string-array>
+    <string name="novip_info">उसने एक संदेश सहायक सेट किया हुआ है और तुरंत आपका रिप्लाई प्राप्त कर सकती है!</string>
+    <string name="send">भेजें</string>
+    <string name="hold_and_talk">दबाएं और बोले</string>
+    <string name="release_to_end">समाप्त करने के लिए छोड़े </string>
+    <string name="release_send">भेजने के लिए छोड़े </string>
+    <string name="photo">फोटो </string>
+
+    <string name="click_to_call_back_now">वापस कॉल करने के लिए क्लिक करें</string>
+    <string name="record_failed">रिकॉर्डिंग विफल रही। कृपया पुन: प्रयास करें</string>
+    <string name="record_max_time">क्या आप वाकई सबसे लंबी रिकॉर्डिंग भेजना चाहते हैं?</string>
+
+    <string name="avcall_cancel">रद्द किया</string>
+    <string name="avcall_is_reject">अस्वीकार्य किया </string>
+    <string name="avcall_be_rejected">अस्वीकार्य किया </string>
+    <string name="avcall_no_pick_up">कोई जवाब नहीं</string>
+    <string name="avcall_is_busy_opposite">दूसरी तरफ व्यस्त है</string>
+    <string name="avcall_is_busy_self">कोई जवाब नहीं</string>
+    <string name="give">भेजें</string>
+    <string name="recharge">रिचार्ज </string>
+
+    <string name="new_call">आपके पास एक नई कॉल है</string>
+    <string name="net_call">[नेटवर्क कॉल]</string>
+    <string name="answer_ing">जवाब</string>
+    <string name="error_page_later">पेज त्रुटि, कृपया बाद में पुनः प्रयास करें</string>
+    <string name="the_other_party">दूसरी तरफ</string>
+    <string name="invite_4_voice">आपको ऑडियो कॉल के लिए आमंत्रित किया है ...</string>
+    <string name="invite_4_video">आपको वीडियो कॉल के लिए आमंत्रित किया है ...</string>
+
+    <string name="str_wait_for_an_answer">जवाब का इंतजार ...</string>
+
+    <string name="orther_internet_quality_no">दूसरे पक्ष का नेटवर्क खराब दिख रहा है</string>
+    <string name="orther_internet_quality_no_maybe">दूसरे पक्ष &#180;s का नेटवर्क खराब दिख रहा है</string>
+    <string name="get_vip_failed">VIP स्टेटस पाने में असफल</string>
+    <string name="she_hung_up">दूसरे तरफ से कॉल काट दिया </string>
+    <string name="confirm_hung_up">क्या आप वाकई फ़ोन काटना चाहते हैं?</string>
+    <string name="tips">टिप्स</string>
+    <string name="lockchat_cancel">रद्द करें</string>
+    <string name="lockchat_ok">पुष्टि करें</string>
+
+    <string name="call_timeout">कॉल टाइम आउट</string>
+    <string name="internet_is_not_can_use">नेटवर्क कनेक्शन विफल, कृपया अपने नेटवर्क की सेटिंग चेक करें</string>
+    <string name="other_busy">दूसरी तरफ व्यस्त है, कृपया बाद में फोन करें</string>
+    <string name="avchat_call_finish">कॉल समाप्त </string>
+    <string name="diamond_is_not_enough">आपके डायमंड पर्याप्त नहीं है</string>
+    <string name="report">रिपोर्ट</string>
+    <string name="block">ब्लॉक </string>
+    <string name="follow">फॉलो</string>
+
+    <string name="internet_is_no_good">वर्तमान में नेटवर्क अनुपलब्ध है</string>
+    <string name="nologin_in">लॉगिन नहीं हुआ </string>
+    <string name="connecting">कनेक्ट कर रहा है ...</string>
+    <string name="logining">लॉग इन हो रहा है...</string>
+
+    <string name="please_select_gift">कृपया एक गिफ्ट चुनें</string>
+    <string name="open_permission_to_chat">कॉल करने की अनुमति चालू करें</string>
+    <string name="block_fail">ब्लॉक करने में विफल</string>
+    <string name="send_failed">भेजना विफल रहा</string>
+
+    <string name="del_chat">इस चैट को हटाएं</string>
+
+
+    <!--  2020-12-10 20:14以后添加的字符串-->
+    <string name="vip_time_expired">VIP समाप्त हो गया</string>
+    <string name="each_min">मिनट</string>
+    <string name="version_old_please_update">यह संस्करण बहुत पुराना है, कृपया अपडेट करें</string>
+    <string name="video_strategy_left">यह कॉल </string>
+    <string name="video_strategy_right">%s तक सीमित है</string>
+    <string name="reply">जवाब</string>
+    <string name="user_is_blacked">यूजर हटा दिया गया है</string>
+    <string name="block_suc">ब्लॉक सफल हुआ</string>
+
+    <!--  2021-01-12 17:51以后添加的字符串-->
+    <string name="open_permission_to_use">कॉल करने की अनुमति चालू करें</string>
+    <!--2021.1.14 以上翻译过了 结尾是 open_permission_to_use-->
+
+    <string name="click_back_to_continue_answer">कॉल पर लौटने के लिए यहां क्लिक करें</string>
+
+    <!--  2021-01-29 14:43以后添加的字符串-->
+    <string name="str_loading">लोड हो रहा है</string>
+    <string name="str_connectting">कनेक्ट हो रहा है </string>
+
+    <!--    2021-02-03 12:42-->
+    <string name="str_msg_ask_gift">[उपहार के लिए पूछें]</string>
+    <string name="str_ask_for">पूछें</string>
+    <string name="str_title_ask_for">%1$s को आशा है कि आप उसे एक गिफ्ट देंगे</string>
+    <string name="str_title_receive_send_gift">%1$s ने आपको दिया</string>
+    <string name="str_title_send_send_gift">आपने दिया %1$s</string>
+    <string name="str_default_send_gift_desc">सब कुछ हो, लेकिन प्यार सबसे महान है</string>
+    <!--2021.2.4已翻译结尾str_default_send_gift_desc-->
+
+    <string name="send_video_invitation">वीडियो आमंत्रण भेजें</string>
+    <string name="i_am_waiting_for_you">में आपकी प्रतीक्षा कर रही हूँ </string>
+    <!--    2021-03-02 10:28-->
+    <string name="str_entering">वह टाइप कर रही है ...</string>
+    <string name="replay_ask">जवाब दें और कांटेक्ट जानकारी के लिए पूछें</string>
+    <string name="wait_replay">जवाब की प्रतीक्षा कर रहा है </string>
+    <string name="reply_success">सफलतापूर्वक जवाब दिया</string>
+    <string name="send_voice_invitation">ऑडियो कॉल निमंत्रण भेजा</string>
+</resources>

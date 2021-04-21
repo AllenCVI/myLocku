@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="7dp"
+    android:paddingTop="7dp"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:11"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/ll_msg_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/layout_msg_progress"
+            layout="@layout/layout_msg_progress"/>
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="25dp"
+            android:background="@drawable/bg_send_gifts"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/iv_gift"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_launcher_round"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="12dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_who_send"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You gave Susan"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        />
+                    <TextView
+                        android:id="@+id/tv_send_gift_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You gave Susan"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FFD545"
+                        android:textSize="15sp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_send_gift_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sweet taste as if to the bottom of my heart"
+                android:gravity="center_horizontal"
+                android:textColor="#66ffffff"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

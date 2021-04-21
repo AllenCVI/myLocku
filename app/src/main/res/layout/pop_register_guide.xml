@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_c16143c_c16"
+        android:minHeight="300dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="224dp"
+            android:layout_height="53dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/first_time_top"></ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="14dp"
+                android:text="First Time Registration"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_guide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"></androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/tv_deputy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="content"
+                android:gravity="center"
+                android:textColor="#b3ffffff"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_go"
+                android:layout_width="wrap_content"
+                android:minWidth="173dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="18dp"
+                android:background="@drawable/shape_cff4a52_c20"
+                android:layout_height="wrap_content"
+                android:minHeight="40dp"
+                android:text="@string/one_click_greeting"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

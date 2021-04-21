@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="40dp"
+    android:gravity="center_horizontal|bottom">
+
+    <TextView
+        android:id="@+id/tv_report"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:text="@string/report"
+        android:gravity="center"
+        android:textColor="@color/color_1d1d1d"
+        android:background="@drawable/bg_pop_she_detail_white"/>
+
+    <TextView
+        android:id="@+id/tv_block"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:text="@string/block"
+        android:visibility="visible"
+        android:gravity="center"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/color_FF4A52"
+        android:background="@drawable/bg_pop_she_detail_white"/>
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:text="@string/cancel"
+        android:gravity="center"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_pop_she_detail_red"/>
+</LinearLayout>

@@ -1,0 +1,140 @@
+<resources>
+    <!--    云信相关-->
+    <string name="notification_status_audio_msg">Nhận được tin nhắn âm thanh từ %1$s</string>
+    <string name="notification_status_custom_msg">Nhận được tin nhắn tùy chỉnh từ %1$s</string>
+    <string name="notification_status_file_msg">Nhận được tệp từ %1$s</string>
+    <string name="notification_status_location_msg">%1$s chia sẻ vị trí</string>
+    <string name="notification_status_multi_msg_incoming">Nhận được thông báo từ bạn bè %1$d</string>
+    <string name="notification_status_notification_msg">% 1 $s: Thông báo</string>
+    <string name="notification_status_image_msg">Nhận được ảnh từ %1$s</string>
+    <string name="notification_status_ticker_text">Nhận được tin nhắn từ %1$s</string>
+    <string name="notification_status_unsupported_msg">%1$s: Loại  tin nhắn này không được hỗ trợ</string>
+    <string name="notification_status_video_msg">Nhận được một tin nhắn video từ %1$s</string>
+    <string name="notification_status_hidden_msg_content">Bạn nhận được một tin nhắn mới</string>
+
+    <string name="msg_gift">[quà]</string>
+    <string name="msg_unknown">[Không xác định]</string>
+    <string name="msg_voice_chat">Trò chuyện giọng nói</string>
+    <string name="msg_video_chat">Trò chuyện video</string>
+    <string name="msg_picture_message">[Hình ]</string>
+    <string name="msg_video_message">Video</string>
+    <string name="msg_audio_message">[Âm thanh]</string>
+
+
+    <!--    云信相关-->
+
+    <!--  其他  -->
+    <string name="locku_im_online">Đang online</string>
+    <string name="locku_im_offline">Đã thoát</string>
+    <string name="locku_im_busy">Đang bận</string>
+    <string name="today">Hôm nay</string>
+    <string name="yesterday">Hôm qua</string>
+
+    <string-array name="weekname">
+        <item>Thứ hai</item>
+        <item>thứ ba</item>
+        <item>thứ tư</item>
+        <item>thứ năm</item>
+        <item>thứ sáu</item>
+        <item>thứ bảy</item>
+        <item>Chủ nhật</item>
+    </string-array>
+    <string name="novip_info"> Cố ấy đã lập 1 cái hỗ trợ tin nhắn và có thể nhận câu trả lời của bạn ngay lập tức</string>
+    <string name="send">Gửi</string>
+    <string name="hold_and_talk">Giữ cuộc trò chuyện</string>
+    <string name="release_to_end">Phát hành đến kết thúc</string>
+    <string name="release_send">Thả tay đẻ gửi đi</string>
+    <string name="photo">Ảnh</string>
+
+    <string name="click_to_call_back_now">Bấm để gọi lại ngay</string>
+    <string name="record_failed">Ghi âm lỗi, vui lòng thử lại,</string>
+    <string name="record_max_time">Bạn muốn gửi ghi âm với thời gian dài nhất?</string>
+
+    <string name="avcall_cancel">Hủy</string>
+    <string name="avcall_is_reject">Từ chối</string>
+    <string name="avcall_be_rejected">Từ chối</string>
+    <string name="avcall_no_pick_up">Không có đáp án </string>
+    <string name="avcall_is_busy_opposite">Bên kia đang bận</string>
+    <string name="avcall_is_busy_self">Không có đáp án </string>
+    <string name="give">Tặng </string>
+    <string name="recharge">Nạp điện</string>
+
+    <string name="new_call">Anh có một cuộc gọi mới</string>
+    <string name="net_call">Cuộc gọi internet </string>
+    <string name="answer_ing">Trả lời</string>
+    <string name="error_page_later">Vui lòng ghi nhớ tên tài khoản và mật khẩu để đăng nhập lại</string>
+    <string name="the_other_party">Bên kia</string>
+    <string name="invite_4_voice"> Mời bạn tham gia cuộc gọi thoại ...</string>
+    <string name="invite_4_video">% s đã mời bạn tham gia trò chuyện video</string>
+
+    <string name="str_wait_for_an_answer">Đang chờ trả lời...</string>
+
+    <string name="orther_internet_quality_no">Đầu dây bên kia kết nối không ổn định </string>
+    <string name="orther_internet_quality_no_maybe">Bên kia ´ S chất lượng mạng kém </string>
+    <string name="get_vip_failed">Trở thành VIP thất bại</string>
+    <string name="she_hung_up">Bên kia tắt máy</string>
+    <string name="confirm_hung_up">Bạn có chắc chắn muốn tắt không?</string>
+    <string name="tips">Lời nhắc</string>
+    <string name="lockchat_cancel">Hủy</string>
+    <string name="lockchat_ok">Xác nhận</string>
+
+    <string name="call_timeout">Cuộc gọi  đã quá thời gian </string>
+    <string name="internet_is_not_can_use">Kết nối mạng thất bại, hãy kiểm tra thiết bị của bạn</string>
+    <string name="other_busy">Bên kia đang bận，gọi lại sau.</string>
+    <string name="avchat_call_finish">cuộc gọi kết thúc</string>
+    <string name="diamond_is_not_enough">Bạn không có đủ kim cương</string>
+    <string name="report">Báo cáo</string>
+    <string name="block">Chặn</string>
+    <string name="follow">Theo dõi </string>
+
+    <string name="internet_is_no_good">Mạng hiện tại không khả dụng</string>
+    <string name="nologin_in">Chưa đăng nhập</string>
+    <string name="connecting">Đang kết nối…</string>
+    <string name="logining">Đăng nhập...</string>
+
+    <string name="please_select_gift">Hãy chọn một món quà</string>
+    <string name="open_permission_to_chat">Cho phép quyền gọi</string>
+    <string name="block_fail">Không chặn được</string>
+    <string name="send_failed">Gửi đi lỗi</string>
+
+    <string name="del_chat">Xóa cuộc trò chuyện này</string>
+    <!--上面是 2021.1.12的翻译 结尾是 del_chat-->
+    <!--  2020-12-10 20:14以后添加的字符串-->
+    <string name="vip_time_expired">VIP hết hạn</string>
+    <string name="each_min">/phút</string>
+
+    <string name="version_old_please_update">Phiên bản quá thấp, xin vui lòng cập nhật phiên bản mới nhất </string>
+
+    <string name="video_strategy_left">Cuộc gọi này là</string>
+    <string name="video_strategy_right">,bị giới hạn %s</string>
+    <string name="reply">Trả lời</string>
+    <string name="user_is_blacked">Người dùng đã bị xóa</string>
+    <string name="block_suc">Chặn thành công</string>
+
+    <!--  2020-01-12 17:51以后添加的字符串-->
+    <string name="open_permission_to_use">Cho phép quyền gọi</string>
+    <!--2021.1.14 以上翻译过了 结尾是 open_permission_to_use-->
+    <string name="click_back_to_continue_answer">Bấm vào đây để quay lại cuộc gọi</string>
+
+    <!--  2021-01-29 14:43以后添加的字符串-->
+    <string name="str_loading">đang tải</string>
+    <string name="str_connectting">Đang kết nối</string>
+
+
+    <!--    2021-02-03 12:42-->
+    <string name="str_msg_ask_gift">[Hỏi về Quà tặng]</string>
+    <string name="str_ask_for">Hỏi về</string>
+    <string name="str_title_ask_for">%1$s hy vọng những món quà từ bạn</string>
+    <string name="str_title_receive_send_gift">%1$s đã tặng bạn</string>
+    <string name="str_title_send_send_gift">Bạn đã tặng %1$s</string>
+    <string name="str_default_send_gift_desc">Tất cả cũng chỉ vì một chữ Thương</string>
+    <!--2021.2.4已翻译结尾str_default_send_gift_desc-->
+    <string name="str_entering">Đối phương đang nhập…</string>
+    <string name="send_video_invitation">Gửi lời mời vào cuộc gọi video</string>
+    <string name="i_am_waiting_for_you">Tôi đợi bạn</string>
+    <string name="replay_ask">Trả lời và xin thông tin liên hệ</string>
+    <string name="reply_success">Trả lời thành công</string>
+    <string name="wait_replay">Chờ họ trả lời</string>
+    <!--2021.3.8 已翻译 wait_replay -->
+    <string name="send_voice_invitation">Gửi lời mời bằng giọng nói</string>
+</resources>

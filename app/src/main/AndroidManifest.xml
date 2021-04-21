@@ -1,0 +1,320 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lockulockme.locku">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <!-- 外置存储存取权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- 多媒体相关 -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- 控制呼吸灯，振动器等，用于新消息提醒 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- 8.0+系统需要-->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
+    <!-- 下面的 uses-permission 一起加入到你的 AndroidManifest 文件中。 -->
+    <permission
+        android:name="com.lockulockme.locku.permission.RECEIVE_MSG"
+        android:protectionLevel="signature"/>
+
+    <uses-permission android:name="com.lockulockme.locku.permission.RECEIVE_MSG"/>
+<!--    云信权限-->
+
+    <application
+        android:name="com.lockulockme.locku.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/name"
+        android:networkSecurityConfig="@xml/traffic_config"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:resizeableActivity="false"
+        tools:replace="android:label"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.lockulockme.locku.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_path"/>
+        </provider>
+        <!-- 屏幕适配 -->
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="360" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="640" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+        <!--适配华为（huawei）刘海屏-->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+        <!--适配小米（xiaomi）刘海屏-->
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- Branch init -->
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_kg9omlkqRW99POQUmeKlnianqzaH4P6z" />
+        <meta-data android:name="io.branch.sdk.BranchKey.test" android:value="key_test_ib4eokhsVW97LKQLfcNrGcmpvycRZQ3K" />
+        <meta-data android:name="io.branch.sdk.TestMode" android:value="false" />     <!-- Set to true to use Branch_Test_Key (useful when simulating installs and/or switching between debug and production flavors) -->
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/WelcomeStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Branch URI Scheme -->
+            <intent-filter>
+                <data android:scheme="locku" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+            <!-- Branch App Links (optional) -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="9v2as.app.link" />
+                <!-- example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website.  -->
+                <data android:scheme="https" android:host="9v2as-alternate.app.link" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".module.ui.activity.CompleteInformationActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.LoginIndexActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.SheDetailActivity"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.ModifyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".module.ui.activity.LevelActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".module.ui.activity.SetHeaderImgActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".module.ui.activity.SetPasswordActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.UploadAvatarActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.ModifyNicknameActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.PersonalSignatureActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.SettingsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.PasswordInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.ReportActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:label="@string/report" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.PlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.ChangePasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.MySpaceActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.CurrentDiamondActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.VipGoodsListActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.PayCenterActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.SeeMeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.ImagePreviewActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.SystemMsgActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name="com.lockulockme.locku.module.ui.activity.H5Activity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".module.ui.activity.MineAttentionActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".module.ui.activity.RatingActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" />
+
+
+        <!--        云信-->
+        <!-- 云信后台服务，请使用独立进程。 -->
+        <service
+            android:name="com.netease.nimlib.service.NimService"
+            android:process=":core" />
+
+        <!-- 云信后台辅助服务 -->
+        <service
+            android:name="com.netease.nimlib.service.NimService$Aux"
+            android:process=":core"/>
+
+        <!-- 云信后台辅助服务 -->
+        <service
+            android:name="com.netease.nimlib.job.NIMJobService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process=":core"/>
+
+        <!-- 云信监视系统启动和网络变化的广播接收器，保持和 NimService 同一进程 -->
+        <receiver android:name="com.netease.nimlib.service.NimReceiver"
+            android:process=":core"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- 云信进程间通信 Receiver -->
+        <receiver android:name="com.netease.nimlib.service.ResponseReceiver"/>
+
+        <!-- 云信进程间通信service -->
+        <service android:name="com.netease.nimlib.service.ResponseService"/>
+
+        <!-- 云信进程间通信provider -->
+        <provider
+            android:name="com.netease.nimlib.ipc.NIMContentProvider"
+            android:authorities="com.lockulockme.locku.ipc.provider"
+            android:exported="false"
+            android:process=":core" />
+
+        <provider
+            android:name="com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider"
+            android:authorities="com.lockulockme.locku.ipc.provider.preference"
+            android:exported="false" />
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+        <activity android:name="com.facebook.FacebookActivity" android:configChanges= "keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:label="@string/name" />
+
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+            <intent-filter> <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <!-- fcm -->
+        <service
+            android:name="com.netease.nimlib.mixpush.fcm.FCMTokenService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/app_icon"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/color_16143c"/>
+
+    </application>
+
+    <uses-permission android:name="com.lockulockme.locku.push.permission.MESSAGE" />
+
+    <permission
+        android:name="com.lockulockme.locku.permission.C2D_MESSAGE"
+        android:protectionLevel="signature"/>
+
+
+    <uses-permission android:name="com.lockulockme.locku.permission.C2D_MESSAGE"/>
+
+</manifest>

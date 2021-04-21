@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "160799966283",
+    "project_id": "locku-70f42",
+    "storage_bucket": "locku-70f42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160799966283:android:374ebd15813834ce1cf9ce",
+        "android_client_info": {
+          "package_name": "com.lockulockme.locku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160799966283-lppncaugn0m9as3i8ru01k4h02v5ecto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lockulockme.locku",
+            "certificate_hash": "19e5deff7866c8c26d19b269d9807fe51bde07b9"
+          }
+        },
+        {
+          "client_id": "160799966283-b5rrvsoscobcj7n5ffh9l8ibmr7ai4nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP3CQyj6vEBl8FiEbWLUMoDSkjc0WqCts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160799966283-b5rrvsoscobcj7n5ffh9l8ibmr7ai4nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

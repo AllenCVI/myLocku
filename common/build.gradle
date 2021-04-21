@@ -1,0 +1,50 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion externalCompileSdkVersion
+    buildToolsVersion externalBuildToolsVersion
+
+    defaultConfig {
+        minSdkVersion externalMinSdkVersion
+        targetSdkVersion externalTargetSdkVersion
+        versionCode 1
+        versionName "1.0.0"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    api externalAPPCOMPAT
+    api externalMULTIDEX
+    api externalEventBus
+    api externalGlide
+    api externalGlideTransform
+    annotationProcessor externalGlideProcess
+    api externalOKHTTP
+    api externalOKIO
+    api externalGSON
+    api externalSMART
+    api externalBRVAH
+    api externalTABLAYOUT
+    api externalNUMPICKER
+    api externalRECYCLERVIEW
+    api externalRXJAVA3
+    testApi externalJUNIT
+    api externalSMARTHEAD
+    api externalSMARTFOOT
+    api externalJZVD
+    api externalEXOPLAYER
+    api externalEXOPLAYERCORE
+    api externalEXOPLAYERDASH
+    api externalEXOPLAYERSM
+    api externalGallery
+    api externalZLOAD
+    api externalPICTURESELECTOR
+    api externalPERMISSION
+    api externalVIEWPAGER2
+    api externalTINY
+
+    testImplementation externalTESTJUNIT
+    testImplementation externalESPRESSO
+
+}

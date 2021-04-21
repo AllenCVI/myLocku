@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#16143c">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <ImageView android:id="@+id/iv_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_title_back_navigator"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/setting"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#1d1a4d"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="horizontal"
+        android:onClick="goUserInformation">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ccffffff"
+            android:textSize="13sp"
+            android:text="@string/AccountAndSecurity"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_mine_right_navigator"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="9dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/llt_rate"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#1d1a4d"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:onClick="goRateUs">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ccffffff"
+            android:textSize="13sp"
+            android:text="@string/rate_us"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_mine_right_navigator"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="9dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#1d1a4d"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:onClick="goAbout">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ccffffff"
+            android:textSize="13sp"
+            android:text="@string/about_locku"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_mine_right_navigator"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="9dp"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/tv_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape_common_btn_bg"
+        android:layout_marginTop="31dp"
+        android:onClick="switchUser"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:text="@string/switch_user"/>
+</LinearLayout>

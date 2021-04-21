@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item android:drawable="@drawable/style_switch_track_off">-->
+<!--    </item>-->
+<!--    <item android:state_checked="true" android:drawable="@drawable/style_switch_track_on">-->
+<!--    </item>-->
+<!--</selector>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" >
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#2D2A63" />
+            <corners android:radius="45dp" />
+            <size android:width="35dp" android:height="24dp"/>
+            <padding android:left="1dp" android:right="1dp" android:top="1dp" android:bottom="1dp"/>
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#FF4A52" />
+            <corners android:radius="45dp" />
+            <size android:width="35dp" android:height="24dp"/>
+            <padding android:left="1dp" android:right="1dp" android:top="1dp" android:bottom="1dp"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item android:gravity="fill">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:bottom="20dp">
+        <bitmap android:src="@drawable/app_icon" />
+    </item>
+
+    <item android:bottom="80dp" android:gravity="bottom|center">
+        <bitmap
+            android:src="@drawable/splash_bottom" />
+    </item>
+</layer-list>

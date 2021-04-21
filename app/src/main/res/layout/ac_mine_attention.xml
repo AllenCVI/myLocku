@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/nav_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_mut"
+            android:layout_width="127dp"
+            android:background="@drawable/shape_cff4a52_c18"
+            android:layout_height="34dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/mutu_follow"></TextView>
+
+        <TextView
+            android:id="@+id/tv_attention"
+            android:layout_width="67dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/shape_c1d1a4d_c18"
+            android:layout_height="34dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/follow"></TextView>
+
+        <TextView
+            android:id="@+id/tv_fans"
+            android:layout_width="67dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/shape_c1d1a4d_c18"
+            android:layout_height="34dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/fans"></TextView>
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

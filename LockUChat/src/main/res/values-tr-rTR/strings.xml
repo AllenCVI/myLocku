@@ -1,0 +1,140 @@
+<resources>
+    <!--    云信相关-->
+
+    <string name="notification_status_audio_msg">%1$s\'den sesli mesaj alındı</string>
+    <string name="notification_status_custom_msg">%1$s\'den özel bir mesaj aldı</string>
+    <string name="notification_status_file_msg">%1$s\'den dosya alındı</string>
+    <string name="notification_status_hidden_msg_content">Yeni bir mesaj aldınız</string>
+    <string name="notification_status_image_msg">%1$s\'den resim alındı</string>
+    <string name="notification_status_location_msg">%1$s paylaşılan konum mesajı</string>
+    <string name="notification_status_multi_msg_incoming">%1$d kişiden bilgi alındı</string>
+    <string name="notification_status_notification_msg">%1$s: bildirim</string>
+    <string name="notification_status_ticker_text">%1$s\'den bir mesaj alındı</string>
+    <string name="notification_status_unsupported_msg">%1$s: desteklenmeyen mesaj türü</string>
+    <string name="notification_status_video_msg">%1$s\'den bir görüntülü mesaj aldı</string>
+
+    <string name="msg_gift">[hediye]</string>
+    <string name="msg_unknown">[Bilinmeyen]</string>
+    <string name="msg_voice_chat">[Sesli sohbet]</string>
+    <string name="msg_video_chat">[Görüntülü sohbet]</string>
+    <string name="msg_picture_message">[Resim]</string>
+    <string name="msg_video_message">[Video]</string>
+    <string name="msg_audio_message">[Ses]</string>
+
+
+    <!--    云信相关-->
+
+    <!--  其他  -->
+    <string name="locku_im_online">İnternet üzerinden</string>
+    <string name="locku_im_offline">Çevrimdışı</string>
+    <string name="locku_im_busy">Meşgul</string>
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+
+    <string-array name="weekname">
+        <item>Pazartesi</item>
+        <item>salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>cuma</item>
+        <item>cumartesi</item>
+        <item>pazar</item>
+    </string-array>
+    <string name="novip_info">o mesaj asistanı kurdu ve cevabınızı hemen alabilir !</string>
+    <string name="send">Gönder</string>
+    <string name="hold_and_talk">BEKLE VE KONUŞ</string>
+    <string name="release_to_end">SONA ERDİR</string>
+    <string name="release_send">Bırak gönder</string>
+    <string name="photo">fotoğraf</string>
+
+    <string name="click_to_call_back_now">Şimdi geri aramak için tıklayın</string>
+    <string name="record_failed">Kayıt başarısız oldu, lütfen tekrar deneyin,</string>
+    <string name="record_max_time">Kaydı maksimum süreye göndermek istiyor musunuz?</string>
+
+    <string name="avcall_cancel">İptal edildi</string>
+    <string name="avcall_is_reject">Reddedildi</string>
+    <string name="avcall_be_rejected">Reddedildi</string>
+    <string name="avcall_no_pick_up">Cevapsız</string>
+    <string name="avcall_is_busy_opposite">Diğer taraf meşgul</string>
+    <string name="avcall_is_busy_self">Cevapsız</string>
+    <string name="give">Çekiliş</string>
+    <string name="recharge">Şarj et</string>
+
+    <string name="new_call">Yeni bir aramanız var</string>
+    <string name="net_call">[Şebeke araması]</string>
+    <string name="answer_ing">Cevap...</string>
+    <string name="error_page_later">Sayfa hatası, lütfen daha sonra tekrar deneyin</string>
+    <string name="the_other_party">Diğer taraf</string>
+    <string name="invite_4_voice"> Sizi sesli sohbete davet ediyor ...</string>
+    <string name="invite_4_video"> Sizi görüntülü sohbete davet ediyor ...</string>
+
+    <string name="str_wait_for_an_answer">Cevabı bekliyorum ...</string>
+
+    <string name="orther_internet_quality_no">Karşı tarafın ağ kalitesi zayıf</string>
+    <string name="orther_internet_quality_no_maybe">Karşı tarafın ağ kalitesi düşük</string>
+    <string name="get_vip_failed">VIP statüsü alınamadı</string>
+    <string name="she_hung_up">Diğer taraf kapattı</string>
+    <string name="confirm_hung_up">Kapatmak istediğinden emin misin?</string>
+    <string name="tips">İpuçları</string>
+    <string name="lockchat_cancel">İptal etmek</string>
+    <string name="lockchat_ok">Onaylamak</string>
+
+    <string name="call_timeout">Çağrı zaman aşımı</string>
+    <string name="internet_is_not_can_use">Ağ bağlantısı başarısız oldu, lütfen ağ ayarlarınızı kontrol edin</string>
+    <string name="other_busy">Karşı taraf meşgul, lütfen daha sonra arayın</string>
+    <string name="avchat_call_finish">Çağrı sonu</string>
+    <string name="diamond_is_not_enough">Elmasın yeterli değil</string>
+    <string name="report">Bildiri</string>
+    <string name="block">Blok</string>
+    <string name="follow">takip</string>
+
+    <string name="internet_is_no_good">Mevcut ağ kullanılamıyor</string>
+    <string name="nologin_in">Giriş yapmadınız</string>
+    <string name="connecting">Bağlanıyor…</string>
+    <string name="logining">giriş...</string>
+
+    <string name="please_select_gift">Lütfen bir hediye seçin</string>
+    <string name="open_permission_to_chat">Çağrı yapmak için izin gerektir</string>
+    <string name="block_fail">engelleme başarısız</string>
+    <string name="send_failed">gönderilemedi</string>
+
+    <string name="del_chat">Bu sohbeti sil</string>
+    <!--上面是 2021.1.12的翻译 结尾是 del_chat-->
+    <!--  2020-12-10 20:14以后添加的字符串-->
+    <string name="vip_time_expired">VIP süresi doldu</string>
+    <string name="each_min">/dk</string>
+    <string name="version_old_please_update">Sürüm çok düşükse lütfen güncelleyin</string>
+
+    <string name="video_strategy_left">Bu çağrı</string>
+    <string name="video_strategy_right">,sadece %s</string>
+    <string name="reply">cevaplama</string>
+    <string name="user_is_blacked">Kullanıcı silindi</string>
+    <string name="block_suc">Başarıyla engellendi</string>
+
+    <!--  2020-01-12 17:51以后添加的字符串-->
+    <string name="open_permission_to_use">Arama iznini etkinleştir</string>
+    <!--2021.1.14 以上翻译过了 结尾是 open_permission_to_use-->
+    <string name="click_back_to_continue_answer">Tüm bilgiler</string>
+
+    <!--  2021-01-29 14:43以后添加的字符串-->
+    <string name="str_loading">Yükleniyor</string>
+    <string name="str_connectting"> Bağlanıyor</string>
+
+
+    <!--    2021-02-03 12:42-->
+    <string name="str_msg_ask_gift">[iste Hediyeler]</string>
+    <string name="str_ask_for">iste</string>
+    <string name="str_title_ask_for">%1$s umarım ona bir hediye verebilirsin</string>
+    <string name="str_title_receive_send_gift">%1$s  sana verdi</string>
+    <string name="str_title_send_send_gift">%1$s verdin</string>
+    <string name="str_default_send_gift_desc">Her şey bir aşk kelimesinden ibaret</string>
+    <!--2021.2.4已翻译结尾str_default_send_gift_desc-->
+    <string name="str_entering">Diğer taraf yazıyor…</string>
+    <string name="send_video_invitation">video davetleri gönder</string>
+    <string name="i_am_waiting_for_you">Seni bekliyorum</string>
+    <string name="replay_ask">cevapla ve iletişim bilgilerini sor</string>
+    <string name="reply_success">Başarıyla yanıtlayın</string>
+    <string name="wait_replay">Cevap bekliyor</string>
+    <!--2021.3.8 已翻译 wait_replay -->
+    <string name="send_voice_invitation">sesli davet gönder</string>
+</resources>

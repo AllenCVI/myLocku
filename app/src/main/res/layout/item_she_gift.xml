@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:background="@drawable/shape_c1d1a4d_c20"
+        android:layout_width="match_parent"
+        android:minWidth="126dp"
+        android:minHeight="108dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:minWidth="58dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_gift"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:scaleType="centerInside"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#99ffffff"
+                android:textSize="12sp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_FF4A52"
+                    android:textSize="12sp"></TextView>
+
+                <ImageView
+                    android:layout_width="9dp"
+                    android:layout_height="8dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_my_diamond_diamond"></ImageView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="×"
+            android:textColor="#66ffffff"
+            android:textSize="18sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

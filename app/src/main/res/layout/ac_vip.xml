@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#16143c">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+        <ImageView android:id="@+id/iv_title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_title_back_navigator"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:onClick="back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/membership_service"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.youth.banner.Banner xmlns:banner="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/vip_banner"
+                android:layout_width="match_parent"
+                android:layout_height="134dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp"
+                banner:banner_indicator_normal_color="@color/transparent"
+                banner:banner_indicator_selected_color="@color/transparent"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_vip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/bg_vip_open"
+                android:gravity="center"
+                android:onClick="open"
+                android:layout_marginStart="75dp"
+                android:layout_marginEnd="75dp"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:text="@string/open_page_page"
+                android:layout_marginBottom="60dp" />
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/ll_network"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            layout="@layout/layout_common_network_error" />
+
+
+        <include
+            layout="@layout/layout_common_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/rl_progress" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
