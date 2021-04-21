@@ -1152,10 +1152,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="27" key="CommitChangelistDialog2" timestamp="1618991578753">
+    <state x="384" y="27" key="CommitChangelistDialog2" timestamp="1618991851260">
       <screen x="0" y="23" width="1680" height="944" />
     </state>
-    <state x="384" y="27" key="CommitChangelistDialog2/0.23.1680.944@0.23.1680.944" timestamp="1618991578753" />
+    <state x="384" y="27" key="CommitChangelistDialog2/0.23.1680.944@0.23.1680.944" timestamp="1618991851260" />
     <state x="298" y="106" key="DiffContextDialog" timestamp="1618991462250">
       <screen x="0" y="23" width="1680" height="944" />
     </state>
@@ -1164,9 +1164,9 @@
       <screen x="0" y="23" width="1680" height="944" />
     </state>
     <state x="340" y="172" key="Vcs.Push.Dialog.v2/0.23.1680.944@0.23.1680.944" timestamp="1618991584706" />
-    <state x="484" y="250" key="git4idea.merge.GitPullDialog" timestamp="1618991252482">
+    <state x="484" y="250" key="git4idea.merge.GitPullDialog" timestamp="1618991861202">
       <screen x="0" y="23" width="1680" height="944" />
     </state>
-    <state x="484" y="250" key="git4idea.merge.GitPullDialog/0.23.1680.944@0.23.1680.944" timestamp="1618991252482" />
+    <state x="484" y="250" key="git4idea.merge.GitPullDialog/0.23.1680.944@0.23.1680.944" timestamp="1618991861202" />
   </component>
 </project>
