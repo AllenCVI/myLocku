@@ -1,0 +1,2 @@
+# myLocku
+把okgo替换成okhttp和RXJAVA的网络请求框架，自己写的对退出页面取消网络请求进行的处理
