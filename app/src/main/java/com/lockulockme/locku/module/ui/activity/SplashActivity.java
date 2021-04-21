@@ -221,35 +221,7 @@ public class SplashActivity extends BaseActivity {
         if (TextUtils.isEmpty(MyApplication.application.type)) {
             MainActivity.StartMe(this,intent);
             finish();
-        } else if ("2".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlocktwo.module.ui.activity.MainActivity.StartMe(this);
-            finish();
-        } else if ("3".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlockthree.module.ui.activity.MainActivity.StartMe(this);
-            finish();
-        }else if ("4".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlockfour.module.ui.activity.MainActivity.StartMe(this);
-            finish();
-        }else if ("5".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlockfive.module.ui.activity.MainActivity.StartMe(this);
-            finish();
-        }else if ("6".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlocksix.module.ui.activity.MainActivity.StartMe(this);
-            finish();
-        }else if ("7".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlockseven.module.ui.activity.MainActivity.StartMe(this);
-            finish();
-        }else if ("8".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlockeight.module.ui.activity.MainActivity.StartMe(this);
-            finish();
-        }else if ("9".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlocknine.module.ui.activity.MainActivity.StartMe(this);
-            finish();
-        }else if ("10".equals(MyApplication.application.type)) {
-            com.lockulockme.locku.zlockten.module.ui.activity.MainActivity.StartMe(this);
-            finish();
         }
-
     }
 
     private Branch.BranchReferralInitListener branchReferralInitListener = new Branch.BranchReferralInitListener() {

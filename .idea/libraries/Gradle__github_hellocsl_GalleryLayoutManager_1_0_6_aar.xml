@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: github.hellocsl:GalleryLayoutManager:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/101a279b8cca8892db6cb182e911487b/jetified-GalleryLayoutManager-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/101a279b8cca8892db6cb182e911487b/jetified-GalleryLayoutManager-1.0.6/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/modules-2/files-2.1/github.hellocsl/GalleryLayoutManager/1.0.6/c37eb01e564d0e3dea8018a90dedaac587c1a388/GalleryLayoutManager-1.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/modules-2/files-2.1/github.hellocsl/GalleryLayoutManager/1.0.6/1a973fe73b0c03e3d59682e9ff60d0d602146087/GalleryLayoutManager-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

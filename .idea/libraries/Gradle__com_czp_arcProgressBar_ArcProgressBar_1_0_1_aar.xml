@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.czp.arcProgressBar:ArcProgressBar:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/5c31946e67e2c38b827afa980631f80c/jetified-ArcProgressBar-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/5c31946e67e2c38b827afa980631f80c/jetified-ArcProgressBar-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/modules-2/files-2.1/com.czp.arcProgressBar/ArcProgressBar/1.0.1/faa9060fc252924a21ebd463dd7014285d6ca8a5/ArcProgressBar-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/modules-2/files-2.1/com.czp.arcProgressBar/ArcProgressBar/1.0.1/be438c83e5a3d20a19d49c6cec6648957dd6deda/ArcProgressBar-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.scwang.smart:refresh-header-material:2.0.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/8366dbac1b200924b83ed051d0e84a70/jetified-refresh-header-material-2.0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/8366dbac1b200924b83ed051d0e84a70/jetified-refresh-header-material-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/8366dbac1b200924b83ed051d0e84a70/jetified-refresh-header-material-2.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/modules-2/files-2.1/com.scwang.smart/refresh-header-material/2.0.1/e859329d8380063d6f1f59cffc24bf3b144d97f3/refresh-header-material-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/modules-2/files-2.1/com.scwang.smart/refresh-header-material/2.0.1/e806af88625d3740a278391854cdc425df009d04/refresh-header-material-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

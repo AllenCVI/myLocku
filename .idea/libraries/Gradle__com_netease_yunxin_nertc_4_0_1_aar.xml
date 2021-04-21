@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netease.yunxin:nertc:4.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/5d41ca91b603b741b73a4f5cb955225b/jetified-nertc-4.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/5d41ca91b603b741b73a4f5cb955225b/jetified-nertc-4.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/transforms-2/files-2.1/5d41ca91b603b741b73a4f5cb955225b/jetified-nertc-4.0.1/jars/libs/nertc-sdk-part-4.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/modules-2/files-2.1/com.netease.yunxin/nertc/4.0.1/b2a9a88eb713942cf9bc00b9681d7700d1e238f4/nertc-4.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/daemon/6.1.1/caches/modules-2/files-2.1/com.netease.yunxin/nertc/4.0.1/b2a9a88eb713942cf9bc00b9681d7700d1e238f4/nertc-4.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
